@@ -121,8 +121,9 @@ class HolesMatchTestCase(TestCase):
         ])
 
     def _third_hole(self, m):
-        for _ in range(3):
-            m.hit() # 3, 1, 2
+        for _ in range(9):
+            for _ in range(3):
+                m.hit() # 3, 1, 2
         m.hit(True) # 3
         self.assertEqual(m.get_table(), [
             ('A', 'B', 'C'),
