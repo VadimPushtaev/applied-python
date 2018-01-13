@@ -13,9 +13,11 @@
 * В папке с репозиторием создать виртуальное окружение и активировать его
 
 > python3.6 -m venv venv
+
 > source venv/bin/activate
 
 * Установить jupyter и запустить (браузер должен открыться автоматически)
 
 > pip install notebook
+
 > jupyter-notebook
