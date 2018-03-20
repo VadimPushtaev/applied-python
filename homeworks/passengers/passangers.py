@@ -5,4 +5,9 @@ def process(data, events, car):
     '''
         ТУТ ДОЛЖЕН БЫТЬ ВАШ КОД
     '''
-    return -1
+    for train in data:
+        print(train['name'])
+        for car in train['cars']:
+            print('\t{}'.format(car['name']))
+            for man in car['people']:
+                print('\t\t{}'.format(man))
