@@ -1,0 +1,130 @@
+[18/Mar/2018 11:19:40] "GET https://www.sys.mail.ru/calendar/config/254/40263/ HTTP/1.1" 200 965
+[18/Mar/2018 11:19:40] "GET http://sys.mail.ru/calendar/config/254/40265/ HTTP/1.1" 200 966
+[18/Mar/2018 11:19:40] "GET https://sys.mail.ru/calendar/config/254/40267/ HTTP/1.1" 200 966
+[18/Mar/2018 11:19:40] "GET https://www.sys.mail.ru/calendar/config/254/40261/ HTTP/1.1" 200 966
+[18/Mar/2018 11:19:40] "GET https://www.sys.mail.ru/calendar/config/254/40255/ HTTP/1.1" 200 966
+[18/Mar/2018 11:19:40] "GET http://sys.mail.ru/calendar/config/254/40243/ HTTP/1.1" 200 966
+[18/Mar/2018 11:19:40] "GET http://www.sys.mail.ru/calendar/config/254/40253/ HTTP/1.1" 200 966
+[18/Mar/2018 11:19:40] "GET http://sys.mail.ru/calendar/config/254/40257/ HTTP/1.1" 200 966
+[18/Mar/2018 11:19:41] "GET https://sys.mail.ru/calendar/config/254/40247/ HTTP/1.1" 200 966
+[18/Mar/2018 11:19:41] "GET https://sys.mail.ru/calendar/config/254/40241/ HTTP/1.1" 200 966
+[18/Mar/2018 11:19:41] "GET http://sys.mail.ru/calendar/meeting/254/40265/?type=paginated_range HTTP/1.1" 200 14
+[18/Mar/2018 11:19:41] "GET http://sys.mail.ru/stats/get_views_count_for_list/?data_list%5B%5D=40263&data_list%5B%5D=40267&data_list%5B%5D=40265&data_list%5B%5D=40261&data_list%5B%5D=40257&data_list%5B%5D=40255&data_list%5B%5D=40253&data_list%5B%5D=40247&data_list%5B%5D=40243&data_list%5B%5D=40241&ctype=254 HTTP/1.1" 200 196
+[18/Mar/2018 11:19:41] "GET http://sys.mail.ru/calendar/meeting/254/40267/?type=paginated_range HTTP/1.1" 200 14
+[18/Mar/2018 11:19:41] "GET http://sys.mail.ru/calendar/meeting/254/40261/?type=paginated_range HTTP/1.1" 200 14
+[20/Mar/2018 11:15:46] "GET https://sys.mail.ru/ HTTP/1.1" 200 27412
+[20/Mar/2018 11:15:46] "GET https://sys.mail.ru/static/vendor/highlight.pack.js?v=3.73.74 HTTP/1.1" 200 26364
+[20/Mar/2018 11:15:46] "GET https://www.sys.mail.ru/static/js/new_base_common.js?v=3.73.74 HTTP/1.1" 200 42979
+[20/Mar/2018 11:15:48] "GET https://www.sys.mail.ru/calendar/config/254/40263/ HTTP/1.1" 200 100234
+[20/Mar/2018 11:15:49] "GET http://www.sys.mail.ru/timeline/full/events/?from_id=575107 HTTP/1.1" 200 20431
+[20/Mar/2018 11:15:49] "GET http://www.sys.mail.ru/static/img/coin.svg HTTP/1.1" 200 2257
+[20/Mar/2018 11:15:49] "GET http://www.sys.mail.ru/media/uploads/10825-c432f58c90f141a7b9039af624eeb82c.gif HTTP/1.1" 404 1912
+[20/Mar/2018 11:15:50] "GET http://sys.mail.ru/get_random_advice/ HTTP/1.1" 200 23
+[20/Mar/2018 11:15:50] "GET https://sys.mail.ru/media/uploads/2453-ac55c51b32c54c9b9312a04a50f3d027.jpg HTTP/1.1" 404 1909
+[20/Mar/2018 11:15:50] "GET https://sys.mail.ru/media/uploads/2453-35825c54238f4fa995cacbdbdcd95807.jpg HTTP/1.1" 404 1909
+[20/Mar/2018 11:15:50] "GET https://sys.mail.ru/media/uploads/2453-f688a0b39d6d48c8b32691ea0029492f.jpg HTTP/1.1" 404 1909
+[20/Mar/2018 11:15:50] "GET https://www.sys.mail.ru/media/uploads/2453-460fcfa34ec54817a3815669acdad5d3.jpg HTTP/1.1" 404 1909
+[20/Mar/2018 11:15:50] "GET https://www.sys.mail.ru/media/uploads/2453-4ca96cc4e2a74522aeca28e245211153.png HTTP/1.1" 404 1909
+[20/Mar/2018 11:15:50] "GET https://sys.mail.ru/media/uploads/2453-2155c2bf622e4cb6a6214605f42d179a.jpg HTTP/1.1" 404 1909
+[20/Mar/2018 11:15:50] "GET https://sys.mail.ru/media/badge/beidzh-myfriends-128x1281edh4aeo.png HTTP/1.1" 404 1888
+[20/Mar/2018 11:15:50] "GET https://sys.mail.ru/media/covers/cover3347.png HTTP/1.1" 404 1822
+[2018-03-23 11:15:50,261] - Broken pipe from ('127.0.0.1', 60764)
+ERROR [django.request:135] Internal Server Error: /fitness/order-list/
+Traceback (most recent call last):
+  File "/home/env/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/home/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/project/fitness_pay/views.py", line 84, in show_pays
+    pay_qs = pay_qs[PAGE_LIMIT * page, PAGE_LIMIT * page + 1]
+  File "/home/env/lib/python2.7/site-packages/django/db/models/query.py", line 265, in __getitem__
+    raise TypeError
+TypeError
+[23/Mar/2018 11:17:27] "GET http://sys.mail.ru/blog/ HTTP/1.1" 200 18757
+[23/Mar/2018 11:17:27] "GET http://sys.mail.ru/static/js/publication.js?v=3.73.74 HTTP/1.1" 200 2556
+[23/Mar/2018 11:17:27] "GET https://www.sys.mail.ru/static/vendor/jsrender-1.0.0.min.js HTTP/1.1" 200 15173
+[23/Mar/2018 11:17:27] "GET https://sys.mail.ru/static/calendar/css/calendar.css?v=3.73.74 HTTP/1.1" 200 10347
+[23/Mar/2018 11:17:27] "GET https://sys.mail.ru/static/calendar/js/calendar.js?v=3.73.74 HTTP/1.1" 200 61699
+[23/Mar/2018 11:17:28] "GET https://sys.mail.ru/notification_center/get_new/?_=1521793047607 HTTP/1.1" 200 6809
+[23/Mar/2018 11:17:29] "GET http://sys.mail.ru/blog/fresh_comments/ HTTP/1.1" 200 17
+[23/Mar/2018 11:17:29] "GET http://www.sys.mail.ru/blog/active_blogs/ HTTP/1.1" 200 584
+[23/Mar/2018 11:17:29] "GET http://www.sys.mail.ru/blog/json/ HTTP/1.1" 200 53544
+[23/Mar/2018 11:17:29] "GET http://sys.mail.ru/textchunk/blog_section_description/ HTTP/1.1" 200 2090
+[23/Mar/2018 11:17:29] "GET http://sys.mail.ru/calendar/config/254/40263/ HTTP/1.1" 200 965
+[23/Mar/2018 11:17:30] "GET http://sys.mail.ru/blog/fresh_recommended/ HTTP/1.1" 200 991
+[23/Mar/2018 11:17:30] "GET http://sys.mail.ru/calendar/config/254/40267/ HTTP/1.1" 200 966
+[23/Mar/2018 11:17:30] "GET http://sys.mail.ru/calendar/config/254/40261/ HTTP/1.1" 200 966
+[23/Mar/2018 11:17:30] "GET http://sys.mail.ru/calendar/config/254/40265/ HTTP/1.1" 200 966
+[23/Mar/2018 11:17:30] "GET http://sys.mail.ru/calendar/config/254/40255/ HTTP/1.1" 200 966
+[23/Mar/2018 11:17:30] "GET http://sys.mail.ru/calendar/config/254/40253/ HTTP/1.1" 200 966
+[23/Mar/2018 11:17:30] "GET http://sys.mail.ru/calendar/config/254/40257/ HTTP/1.1" 200 966
+[23/Mar/2018 11:17:30] "GET http://www.sys.mail.ru/calendar/config/254/40247/ HTTP/1.1" 200 966
+[23/Mar/2018 11:17:30] "GET http://www.sys.mail.ru/calendar/config/254/40243/ HTTP/1.1" 200 966
+[23/Mar/2018 11:17:30] "GET http://sys.mail.ru/calendar/config/254/40241/ HTTP/1.1" 200 966
+[23/Mar/2018 11:17:30] "GET http://www.sys.mail.ru/media/uploads/6579-5bef795dfb3f4b198161e640124c71da.png HTTP/1.1" 404 1909
+[25/Mar/2018 11:17:30] "GET https://sys.mail.ru/media/blogs_logo/unnamed.png HTTP/1.1" 404 1828
+[25/Mar/2018 11:17:30] "GET https://www.sys.mail.ru/calendar/meeting/254/40267/?type=paginated_range HTTP/1.1" 200 14
+[25/Mar/2018 11:17:30] "GET https://sys.mail.ru/calendar/meeting/254/40263/?type=paginated_range HTTP/1.1" 200 392
+[25/Mar/2018 11:17:30] "GET https://www.sys.mail.ru/stats/get_views_count_for_list/?data_list%5B%5D=40263&data_list%5B%5D=40267&data_list%5B%5D=40265&data_list%5B%5D=40261&data_list%5B%5D=40257&data_list%5B%5D=40255&data_list%5B%5D=40253&data_list%5B%5D=40247&data_list%5B%5D=40243&data_list%5B%5D=40241&ctype=254 HTTP/1.1" 200 196
+[25/Mar/2018 11:17:30] "GET http://www.sys.mail.ru/calendar/meeting/254/40261/?type=paginated_range HTTP/1.1" 200 14
+[25/Mar/2018 11:17:30] "GET http://sys.mail.ru/calendar/meeting/254/40253/?type=paginated_range HTTP/1.1" 200 14
+[25/Mar/2018 11:17:30] "GET http://sys.mail.ru/calendar/meeting/254/40265/?type=paginated_range HTTP/1.1" 200 14
+[25/Mar/2018 11:17:30] "GET http://sys.mail.ru/calendar/meeting/254/40257/?type=paginated_range HTTP/1.1" 200 14
+[25/Mar/2018 11:17:30] "GET http://sys.mail.ru/calendar/meeting/254/40255/?type=paginated_range HTTP/1.1" 200 14
+[25/Mar/2018 11:17:30] "GET http://sys.mail.ru/calendar/meeting/254/40247/?type=paginated_range HTTP/1.1" 200 14
+[25/Mar/2018 11:17:30] "GET http://sys.mail.ru/media/uploads/6579-af5e97bec5ac4ae0b8caeccec92d884c.png HTTP/1.1" 404 1909
+[25/Mar/2018 11:17:31] "GET http://sys.mail.ru/calendar/meeting/254/40243/?type=paginated_range HTTP/1.1" 200 14
+[25/Mar/2018 11:17:31] "GET http://sys.mail.ru/calendar/meeting/254/40241/?type=paginated_range HTTP/1.1" 200 14
+ERROR [django.request:135] Internal Server Error: /fitness/order-list/
+Traceback (most recent call last):
+  File "/home/env/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/home/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/env/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/project/fitness_pay/views.py", line 84, in show_pays
+    pay_qs = pay_qs[PAGE_LIMIT * page, PAGE_LIMIT * page + 1]
+  File "/home/env/lib/python2.7/site-packages/django/db/models/query.py", line 265, in __getitem__
+    raise TypeError
+TypeError
+[25/Mar/2018 11:17:31] "GET http://www.sys.mail.ru/media/uploads/4652-20a4998b645c473083af5b90d40db584.jpg HTTP/1.1" 404 1909
+[25/Mar/2018 11:17:31] "GET http://www.sys.mail.ru/media/uploads/12937-f8cfb5bad3db4fd1b8958cc34c65f8b5.jpg HTTP/1.1" 404 1912
+[25/Mar/2018 11:17:31] "GET http://www.sys.mail.ru/media/uploads/4652-9516c2bebdcc44aea119121d9af288fb.jpg HTTP/1.1" 404 1909
+[25/Mar/2018 11:17:31] "GET https://www.sys.mail.ru/media/uploads/4652-a372e385ff9c4e0aacd4dd9e83b18e94.jpg HTTP/1.1" 404 1909
+[25/Mar/2018 11:17:31] "GET https://sys.mail.ru/media/uploads/4652-6cc0c638d5644ac881726590937edd63.jpg HTTP/1.1" 404 1909
+[25/Mar/2018 11:17:31] "GET https://www.sys.mail.ru/media/uploads/2453-3a4911f7c9af46aba0f47b51ddf6fa2c.jpg HTTP/1.1" 404 1909
+[25/Mar/2018 11:17:31] "GET https://sys.mail.ru/media/uploads/2453-b306955b9e324ddc8f8920ab960b32e7.jpg HTTP/1.1" 404 1909
+[25/Mar/2018 11:17:31] "GET https://www.sys.mail.ru/media/uploads/12937-d2d44a46fc084ff5b782684f1eacdadb.jpg HTTP/1.1" 404 1912
+[25/Mar/2018 11:17:31] "GET https://sys.mail.ru/media/uploads/2453-35825c54238f4fa995cacbdbdcd95807.jpg HTTP/1.1" 404 1909
+[25/Mar/2018 11:17:31] "GET http://www.sys.mail.ru/media/uploads/2453-ac55c51b32c54c9b9312a04a50f3d027.jpg HTTP/1.1" 404 1909
+[25/Mar/2018 11:17:31] "GET http://www.sys.mail.ru/media/uploads/2453-4ca96cc4e2a74522aeca28e245211153.png HTTP/1.1" 404 1909
+[25/Mar/2018 11:17:31] "GET http://sys.mail.ru/media/uploads/2453-f688a0b39d6d48c8b32691ea0029492f.jpg HTTP/1.1" 404 1909
+[25/Mar/2018 11:17:31] "GET http://sys.mail.ru/media/uploads/9615-c66b366495ac45c38d2f2365850e7b51.jpg HTTP/1.1" 404 1909
+[25/Mar/2018 11:17:31] "GET http://www.sys.mail.ru/media/uploads/2453-2155c2bf622e4cb6a6214605f42d179a.jpg HTTP/1.1" 404 1909
+[28/Mar/2018 11:17:31] "GET http://sys.mail.ru/blog/fresh_recommended/ HTTP/1.1" 200 991
+[28/Mar/2018 11:17:31] "GET http://www.sys.mail.ru/media/uploads/2453-460fcfa34ec54817a3815669acdad5d3.jpg HTTP/1.1" 404 1909
+[28/Mar/2018 11:17:31] "GET http://sys.mail.ru/media/uploads/7477-e2e29ffbfb0445f881dba6726535ab76.gif HTTP/1.1" 404 1909
+[28/Mar/2018 11:17:31] "GET http://sys.mail.ru/media/uploads/9615-07a48743864e4113b8c07265bf1b687f.png HTTP/1.1" 404 1909
+[28/Mar/2018 11:17:31] "GET http://sys.mail.ru/media/blogs_logo/Bruce_3.png HTTP/1.1" 404 1828
+[28/Mar/2018 11:17:31] "GET http://sys.mail.ru/media/blogs_logo/marketing-png-1300.png HTTP/1.1" 404 1861
+[28/Mar/2018 11:19:40] "GET http://www.sys.mail.ru/calendar/config/254/40263/ HTTP/1.1" 200 965
+[28/Mar/2018 11:19:40] "GET https://sys.mail.ru/calendar/config/254/40265/ HTTP/1.1" 200 966
+[28/Mar/2018 11:19:40] "GET https://www.sys.mail.ru/calendar/config/254/40267/ HTTP/1.1" 200 966
+[28/Mar/2018 11:19:40] "GET https://www.sys.mail.ru/calendar/config/254/40261/ HTTP/1.1" 200 966
+[28/Mar/2018 11:19:40] "GET https://sys.mail.ru/calendar/config/254/40255/ HTTP/1.1" 200 966
+[28/Mar/2018 11:19:40] "GET https://sys.mail.ru/calendar/config/254/40243/ HTTP/1.1" 200 966
+[28/Mar/2018 11:19:40] "GET http://sys.mail.ru/calendar/config/254/40253/ HTTP/1.1" 200 966
+[28/Mar/2018 11:19:40] "GET http://www.sys.mail.ru/calendar/config/254/40257/ HTTP/1.1" 200 966
+[28/Mar/2018 11:19:41] "GET http://sys.mail.ru/calendar/config/254/40247/ HTTP/1.1" 200 966
+[28/Mar/2018 11:19:41] "GET http://www.sys.mail.ru/calendar/config/254/40241/ HTTP/1.1" 200 966
+[28/Mar/2018 11:19:41] "GET http://sys.mail.ru/calendar/meeting/254/40265/?type=paginated_range HTTP/1.1" 200 14
+[28/Mar/2018 11:19:41] "GET https://www.sys.mail.ru/stats/get_views_count_for_list/?data_list%5B%5D=40263&data_list%5B%5D=40267&data_list%5B%5D=40265&data_list%5B%5D=40261&data_list%5B%5D=40257&data_list%5B%5D=40255&data_list%5B%5D=40253&data_list%5B%5D=40247&data_list%5B%5D=40243&data_list%5B%5D=40241&ctype=254 HTTP/1.1" 200 196
+[28/Mar/2018 11:19:41] "GET https://www.sys.mail.ru/calendar/meeting/254/40267/?type=paginated_range HTTP/1.1" 200 14
+[28/Mar/2018 11:19:41] "GET https://sys.mail.ru/calendar/meeting/254/40261/?type=paginated_range HTTP/1.1" 200 14
