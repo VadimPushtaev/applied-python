@@ -18,5 +18,4 @@ class TimeIntervalTestCase(unittest.TestCase):
 
 # test_init
 # patch
-# TimeInterval(datetime.datetime(2017, 1, 1, 0, 0), datetime.datetime(2018, 1, 1, 0, 0))
 # setUp
