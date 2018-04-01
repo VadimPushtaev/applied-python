@@ -90,7 +90,7 @@ class HolesMatchTestCase(TestCase):
         with self.assertRaises(RuntimeError):
             m.hit()
 
-        self.assertEqual(m.get_winners(), players)
+        self.assertEqual(m.get_winners(), [players[0]])
 
     def _first_hole(self, m):
         m.hit(True) # 1
@@ -129,14 +129,14 @@ class HolesMatchTestCase(TestCase):
             (0, 0, 0),
             (None, None, 1),
         ])
-        m.hit()     # 1
-        m.hit(True) # 2
+        m.hit(True) # 1
+        m.hit()     # 2
 
         self.assertTrue(m.finished)
         self.assertEqual(m.get_table(), [
             ('A', 'B', 'C'),
             (1, 0, 0),
             (0, 0, 0),
-            (0, 1, 1),
+            (1, 0, 1),
         ])
 
