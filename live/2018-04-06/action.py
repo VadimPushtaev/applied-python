@@ -1,10 +1,17 @@
-from consumable import NestedConsumable
-
-
-class Action(NestedConsumable):
-    def __init__(self, name, resources):
+class Action:
+    def __init__(self, name, amount_resource_pairs):
         self._name = name
-        self._resources = resources
+        self._amount_resource_pairs = amount_resource_pairs
 
-    def _get_nested_consumables(self):
-        return self._resources
+    def _can_consume(self, dt):
+        return all(
+            resource.can_consume(dt, amount)
+            for amount, resource in self._amount_resource_pairs
+        )
+
+    def consume(self, dt):
+        if not self._can_consume(dt):
+            raise RuntimeError("Can't consume")
+
+        for amount, resource in self._amount_resource_pairs:
+            resource.consume(dt, amount)
