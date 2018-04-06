@@ -1,11 +1,12 @@
 from datetime import timedelta, datetime
-from unittest import TestCase
 
 from limit import Limit
+from tests import BaseTestCase
 
 
-class LimitTestCase(TestCase):
+class LimitTestCase(BaseTestCase):
     def setUp(self):
+        super().setUp()
         self._limit = Limit(2, timedelta(seconds=3))
 
     def test_can_consume(self):

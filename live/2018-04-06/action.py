@@ -3,6 +3,10 @@ class Action:
         self._name = name
         self._amount_resource_pairs = amount_resource_pairs
 
+    @property
+    def name(self):
+        return self._name
+
     def _can_consume(self, dt):
         return all(
             resource.can_consume(dt, amount)

@@ -1,28 +1,15 @@
 from datetime import timedelta, datetime
-from unittest import TestCase
 
 from action import Action
-from limit import Limit
-from resource import Resource
+from tests import BaseTestCase
 
 
-class ActionTestCase(TestCase):
+class ActionTestCase(BaseTestCase):
     def setUp(self):
+        super().setUp()
         self._action = Action('test', [
-            (
-                2,
-                Resource('test_resource1', [
-                    Limit(2, timedelta(seconds=1)),
-                    Limit(3, timedelta(seconds=1)),
-                ]),
-            ),
-            (
-                3,
-                Resource('test_resource2', [
-                    Limit(6, timedelta(seconds=1)),
-                    Limit(7, timedelta(seconds=1)),
-                ]),
-            ),
+            (2, self._resource1),
+            (3, self._resource2),
         ])
 
     def test__can_consume(self):
