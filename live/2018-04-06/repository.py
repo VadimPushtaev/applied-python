@@ -1,6 +1,7 @@
 class Repository:
     def __init__(self, actions):
         self._actions = actions
+        self._actions_index = self._get_actions_index()
 
     def do_action(self, action_name, dt):
         action = self._get_action_by_name(action_name)
@@ -12,8 +13,8 @@ class Repository:
         except RuntimeError:
             return False
 
+    def _get_actions_index(self):
+        return {action.name: action for action in self._actions}
+
     def _get_action_by_name(self, action_name):
-        try:
-            return next(action for action in self._actions if action.name == action_name)
-        except StopIteration:
-            return None
+        return self._actions_index.get(action_name)

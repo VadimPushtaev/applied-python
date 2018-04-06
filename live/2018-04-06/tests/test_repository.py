@@ -31,3 +31,9 @@ class RepositoryTestCase(BaseTestCase):
         self.assertIs(self._repository._get_action_by_name('action1'), self._action1)
         self.assertIs(self._repository._get_action_by_name('action2'), self._action2)
         self.assertIsNone(self._repository._get_action_by_name('UNKNOWN'))
+
+    def test__get_actions_index(self):
+        self.assertDictEqual(
+            self._repository._get_actions_index(),
+            dict(action1=self._action1, action2=self._action2)
+        )
