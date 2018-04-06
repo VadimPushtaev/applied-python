@@ -1,4 +1,7 @@
-class Limit:
+from consumable import Consumable
+
+
+class Limit(Consumable):
     def __init__(self, quota, period):
         self._quota = quota
         self._period = period
