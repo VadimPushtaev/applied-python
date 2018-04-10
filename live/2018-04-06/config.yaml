@@ -1,0 +1,26 @@
+actions:
+  - name: post
+    consumes:
+      hdd: 1
+      ram: 2
+  - name: get
+    consumes:
+      ram: 1
+      lan: 3
+resources:
+  - name: lan
+    limits:
+      - quota: 5
+        period: 60
+      - quota: 10
+        period: 600
+  - name: ram
+    limits:
+      - quota: 50
+        period: 60
+      - quota: 100
+        period: 600
+  - name: hdd
+    limits:
+      - quota: 1
+        period: 2
