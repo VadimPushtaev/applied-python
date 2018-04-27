@@ -19,7 +19,7 @@ class MessageCommandHandler(CommandHandler):
             del (self.messages[-1])
             return result
         elif text.startswith('_random'):
-            index = rand_func(0, len(self.messages)-1)
+            index = rand_func(0, len(self.messages) - 1)
             result = self.messages[index]
             return result
 

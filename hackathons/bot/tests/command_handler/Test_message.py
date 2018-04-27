@@ -2,9 +2,7 @@ import unittest
 from command_handler.message import MessageCommandHandler
 
 
-
 class MyTestCase(unittest.TestCase):
-
 
     def Obj(self):
         obj = MessageCommandHandler()
@@ -20,11 +18,6 @@ class MyTestCase(unittest.TestCase):
     def test_random(self):
         obj = self.Obj()
         self.assertEqual('yeah3', obj.handle('_random', rand_func=lambda x, b: 3))
-
-
-
-
-
 
 
 if __name__ == '__main__':
