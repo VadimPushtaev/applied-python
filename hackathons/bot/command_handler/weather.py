@@ -1,6 +1,7 @@
 from command_pool import CommandPool
 from command_handler import CommandHandler
 
+import requests
 
 @CommandPool.register_command_class
 class YahooWeatherForecast(CommandHandler):
