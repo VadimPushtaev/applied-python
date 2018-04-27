@@ -5,6 +5,7 @@ from slackclient import SlackClient
 
 from command_pool import CommandPool
 import command_handler.sample
+import command_handler.check1421
 
 # instantiate Slack client
 slack_client = SlackClient(os.environ.get('SLACK_BOT_TOKEN'))

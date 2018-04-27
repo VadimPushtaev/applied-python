@@ -6,3 +6,4 @@ class Test1421(CommandHandler):
     def handle(self, text):
         if text.startswith('1421'):
             return 'Hello bro!'
+
