@@ -3,13 +3,18 @@ import time
 import re
 from slackclient import SlackClient
 # from command_handler.message import MessageCommandHandler
-import command_handler.message
+# import command_handler.message
 from command_pool import CommandPool
-import command_handler.sample
-import command_handler.calories_calculator
-import command_handler.stackoverflow
-import command_handler.weather
-import command_handler.roll
+# import command_handler.sample
+# import command_handler.calories_calculator
+# import command_handler.stackoverflow
+# import command_handler.weather
+# import command_handler.roll
+all_files = os.listdir('./command_handler/')
+for file_name in all_files:
+    if file_name.endswith('.py'):
+        __import__(name.split('.')[0])
+
 
 # instantiate Slack client
 slack_client = SlackClient(os.environ.get('SLACK_BOT_TOKEN'))
