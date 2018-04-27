@@ -1,13 +1,13 @@
-from command_pool import CommandPool
-from command_handler import CommandHandler
+# from command_pool import CommandPool
+# from command_handler import CommandHandler
 from bs4 import BeautifulSoup
 import requests
 
 
 
-@CommandPool.register_command_class
-class Test1421(CommandHandler):
-#class Test1421:
+# @CommandPool.register_command_class
+# class Test1421(CommandHandler):
+class Test1421:
     def handle(self, text):
         if text.startswith('stack: '):
             ask = text.split(':')[1]
@@ -18,12 +18,10 @@ class Test1421(CommandHandler):
             for ans in answers:
                 if ans.find('div', class_='status answered-accepted'):
                     result = ans.find('div', class_='excerpt').text
-                    # url = ans.find('div', class_='result-link')
-                    # print(url)
+                    url = ans.find('a')
+                    true_url = 'https://ru.stackoverflow.com/' + url.get('href')
                     break
-
-            # return 0
-            return result
+            return str(result).strip() + '\n' + str(true_url)
 
 if __name__ == '__main__':
     test = Test1421()
