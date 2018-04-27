@@ -4,7 +4,7 @@ from command_handler import CommandHandler
 
 @CommandPool.register_command_class
 class YahooWeatherForecast(CommandHandler):
-      def get(self, city):
+      def handle(self, city):
             if not city.startswith('Weather'):
                 return None
 
