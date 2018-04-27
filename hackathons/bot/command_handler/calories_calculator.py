@@ -20,7 +20,7 @@ class CaloriesCalculator(CommandHandler):
             not_found_food = []
             found_food = {}
             for command in commands:
-                params = self.food_base.get(command['name'].lower())
+                params = self.food_base.get(command['name'].strip())
                 if params:
                     if command['weight']:
                         found_food[command['name']] = {name: value * command['weight']/100 for name, value in params.items()}
@@ -35,11 +35,11 @@ class CaloriesCalculator(CommandHandler):
             if found_food:
                 results.append("{:^30}|{:^10}|{:^10}|{:^10}|{:^10}|{:^10}"
                                .format('Продукт', 'Вода', 'Белки', 'Жиры', 'Углеводы', 'Калории'))
-                results.append("_"*80)
+                results.append("_"*90)
                 for name, parameter in found_food.items():
                     results.append("{:^30}|{:^10}|{:^10}|{:^10}|{:^10}|{:^10}"
-                                   .format(name, parameter['water'], parameter['proteins'], parameter['fats'], parameter['carbohydrates'], parameter['calories']))
-                    results.append("_" * 80)
+                                   .format(name, parameter['water'], parameter['proteins'], parameter['fats'], parameter['carbohydrates'], parameter['kcal']))
+                    results.append("_" * 90)
             return '```' + '\n'.join(results) + '```'
 
     @staticmethod
