@@ -5,7 +5,7 @@ from slackclient import SlackClient
 
 from command_pool import CommandPool
 import command_handler.sample
-
+import command_handler.stackoverflow
 # instantiate Slack client
 slack_client = SlackClient(os.environ.get('SLACK_BOT_TOKEN'))
 # starterbot's user ID in Slack: value is assigned after the bot starts up
