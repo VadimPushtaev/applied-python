@@ -10,9 +10,11 @@ from command_pool import CommandPool
 # import command_handler.stackoverflow
 # import command_handler.weather
 # import command_handler.roll
-all_files = os.listdir('./command_handler/')
-for file_name in all_files:
-    if file_name.endswith('.py'):
+file_dir = '/'.join(__file__.split('/')[:-1])
+dir_to_import = file_dir + '/command_handler/'
+all_files = os.listdir(dir_to_import)
+for name in all_files:
+    if name.endswith('.py'):
         __import__(name.split('.')[0])
 
 
