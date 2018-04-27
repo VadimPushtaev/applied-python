@@ -11,7 +11,8 @@ class MessageCommandHandler(CommandHandler):
     def handle(self, text, rand_func=None):
         if rand_func is None:
             rand_func = randint
-
+        if not self.messages and (text.startswith('messages get') or text.startswith('messages random')):
+            return 'Сообщений нет'
         if text.startswith('messages start '):
             self.messages.append(text[15:])
         elif text.startswith('messages get'):
