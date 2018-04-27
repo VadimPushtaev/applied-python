@@ -32,6 +32,7 @@ class YahooWeatherForecast(CommandHandler):
                 return 'Incorrect city name'
             day_data = forecast_data[0]
             forecast = {
+                  'City': city,
                   'Date': day_data['date'],
                   'Low_temp': day_data['low'],
                   'High_temp': day_data['high'],
