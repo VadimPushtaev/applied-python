@@ -1,15 +1,11 @@
 import unittest
 from command_handler.message import MessageCommandHandler
-from unittest.mock import patch
-from random import randint
+
 
 
 class MyTestCase(unittest.TestCase):
 
-    # def setUp(self):
-    #     self.obj = MessageCommandHandler()
-    #     for i in range(5):
-    #         self.obj.handle('_start yeah' + str(i))
+
     def Obj(self):
         obj = MessageCommandHandler()
 
