@@ -2,6 +2,8 @@ from command_pool import CommandPool
 from command_handler import CommandHandler
 
 import requests
+import json
+import urllib
 
 @CommandPool.register_command_class
 class YahooWeatherForecast(CommandHandler):
@@ -10,6 +12,14 @@ class YahooWeatherForecast(CommandHandler):
                 return None
 
             city = city[7:].strip()
+
+            if city.startswith('id'):
+                response = requests.get(
+                    'https://api.vk.com/method/users.get?user_ids={}&fields=city&lang=en&v=5.74'.format(city.split()[1]))
+
+                data = json.loads(response.text)
+
+                city = data['response'][0]['city']['title']
 
             url = "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather." \
                   "forecast%20where%20woeid%20in%20(select%20woeid%20from%20geo.places(1)%20where%" \
