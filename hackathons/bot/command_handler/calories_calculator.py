@@ -37,7 +37,7 @@ class CaloriesCalculator(CommandHandler):
                                .format('Продукт', 'Вода', 'Белки', 'Жиры', 'Углеводы', 'Калории'))
                 results.append("_"*90)
                 for name, parameter in found_food.items():
-                    results.append("{:^30}|{:^10}|{:^10}|{:^10}|{:^10}|{:^10}"
+                    results.append("{:^30}|{:^10.2f}|{:^10.2f}|{:^10.2f}|{:^10.2f}|{:^10.2f}"
                                    .format(name, parameter['water'], parameter['proteins'], parameter['fats'], parameter['carbohydrates'], parameter['kcal']))
                     results.append("_" * 90)
             return '```' + '\n'.join(results) + '```'
