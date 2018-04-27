@@ -6,10 +6,10 @@ import random
 class RollHandler(CommandHandler):
     def handle(self, text):
         if text.startswith('roll'):
-            text.strip('roll')
-            args = text.split('d')
-            count = args[0]
-            edges = args[1]
+            new_text=text.strip('roll ')
+            args = new_text.split('d')
+            count = int(args[0])
+            edges = int(args[1])
             result = []
 
             for i in range(count):
