@@ -5,9 +5,13 @@ from random import randint
 
 @CommandPool.register_command_class
 class MessageCommandHandler(CommandHandler):
-    messages = []
+    def __init__(self):
+        self.messages = []
 
-    def handle(self, text):
+    def handle(self, text, rand_func=None):
+        if rand_func is None:
+            rand_func = randint
+
         if text.startswith('_start '):
             self.messages.append(text[7:])
         elif text.startswith('_get'):
@@ -15,7 +19,7 @@ class MessageCommandHandler(CommandHandler):
             del (self.messages[-1])
             return result
         elif text.startswith('_random'):
-            index = randint(len(self.messages))
+            index = rand_func(0, len(self.messages)-1)
             result = self.messages[index]
             return result
 
