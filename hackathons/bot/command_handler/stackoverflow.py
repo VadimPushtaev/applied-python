@@ -8,8 +8,8 @@ import requests
 @CommandPool.register_command_class
 class Test1421(CommandHandler):
     def handle(self, text):
-        if text.startswith('stack: '):
-            ask = text.split(':')[1]
+        if text.startswith('Stack '):
+            ask = text[6:]
             base_url = 'https://ru.stackoverflow.com/questions/tagged/{}'.format(ask)
             html = requests.get(base_url).text
             soup = BeautifulSoup(html, 'lxml')
@@ -21,8 +21,3 @@ class Test1421(CommandHandler):
                     true_url = 'https://ru.stackoverflow.com/' + url.get('href')
                     break
             return str(result).strip() + '\n' + str(true_url)
-
-if __name__ == '__main__':
-    test = Test1421()
-    result = test.handle('stack: python virtualenv')
-    print(result)
