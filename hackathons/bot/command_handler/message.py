@@ -12,13 +12,13 @@ class MessageCommandHandler(CommandHandler):
         if rand_func is None:
             rand_func = randint
 
-        if text.startswith('_start '):
-            self.messages.append(text[7:])
-        elif text.startswith('_get'):
+        if text.startswith('messages start '):
+            self.messages.append(text[15:])
+        elif text.startswith('messages get'):
             result = self.messages[-1]
             del (self.messages[-1])
             return result
-        elif text.startswith('_random'):
+        elif text.startswith('messages random'):
             index = rand_func(0, len(self.messages) - 1)
             result = self.messages[index]
             return result
