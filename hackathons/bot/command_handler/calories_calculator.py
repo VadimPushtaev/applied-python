@@ -23,7 +23,7 @@ class CaloriesCalculator(CommandHandler):
                 params = self.food_base.get(command['name'].strip())
                 if params:
                     if command['weight']:
-                        found_food[command['name']] = {name: value * command['weight']/100 for name, value in params.items()}
+                        found_food[command['name']] = {name: float(value) * float(command['weight'])/100 for name, value in params.items()}
                     else:
                         found_food[command['name']] = params
                 else:
@@ -31,7 +31,7 @@ class CaloriesCalculator(CommandHandler):
             results = []
             if not_found_food:
                 for not_found in not_found_food:
-                    results.append("Food '{}' is not found in base".format(not_found))
+                    results.append("Food '{}' is not found in base".format(not_found.strip()))
             if found_food:
                 results.append("{:^30}|{:^10}|{:^10}|{:^10}|{:^10}|{:^10}"
                                .format('Продукт', 'Вода', 'Белки', 'Жиры', 'Углеводы', 'Калории'))
