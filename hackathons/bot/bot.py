@@ -6,6 +6,7 @@ from slackclient import SlackClient
 import command_handler.message
 from command_pool import CommandPool
 import command_handler.sample
+import command_handler.calories_calculator
 import command_handler.stackoverflow
 import command_handler.weather
 import command_handler.roll
