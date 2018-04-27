@@ -13,7 +13,7 @@ from command_pool import CommandPool
 dir_to_import = os.path.dirname(os.path.realpath(__file__)) + '/command_handler/'
 all_files = os.listdir(dir_to_import)
 for name in all_files:
-    if name.endswith('.py'):
+    if name.endswith('.py') and not name.startswith('_'):
         __import__(name.split('.')[0])
 
 
