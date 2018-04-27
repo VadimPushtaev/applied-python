@@ -1,13 +1,12 @@
-# from command_pool import CommandPool
-# from command_handler import CommandHandler
+from command_pool import CommandPool
+from command_handler import CommandHandler
 from bs4 import BeautifulSoup
 import requests
 
 
 
-# @CommandPool.register_command_class
-# class Test1421(CommandHandler):
-class Test1421:
+@CommandPool.register_command_class
+class Test1421(CommandHandler):
     def handle(self, text):
         if text.startswith('stack: '):
             ask = text.split(':')[1]
