@@ -6,6 +6,7 @@ class CommandPool:
     @classmethod
     def register_command_class(cls, klass):
         cls.COMMAND_CLASSES.append(klass)
+        return klass
 
     def __init__(self):
         self._command_handlers = [klass() for klass in self.COMMAND_CLASSES]

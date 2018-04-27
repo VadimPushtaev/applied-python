@@ -2,19 +2,24 @@ import os
 import time
 import re
 from slackclient import SlackClient
-
+# from command_handler.message import MessageCommandHandler
+import command_handler.message
 from command_pool import CommandPool
 import command_handler.sample
 import command_handler.stackoverflow
+import command_handler.weather
+import command_handler.roll
+
 # instantiate Slack client
 slack_client = SlackClient(os.environ.get('SLACK_BOT_TOKEN'))
 # starterbot's user ID in Slack: value is assigned after the bot starts up
 starterbot_id = None
 
 # constants
-RTM_READ_DELAY = 1 # 1 second delay between reading from RTM
+RTM_READ_DELAY = 1  # 1 second delay between reading from RTM
 EXAMPLE_COMMAND = "do"
 MENTION_REGEX = "^<@(|[WU].+?)>(.*)"
+
 
 def parse_bot_commands(slack_events):
     for event in slack_events:
@@ -24,9 +29,11 @@ def parse_bot_commands(slack_events):
                 return message, event["channel"]
     return None, None
 
+
 def parse_direct_mention(message_text):
     matches = re.search(MENTION_REGEX, message_text)
     return (matches.group(1), matches.group(2).strip()) if matches else (None, None)
+
 
 def handle_command(command_pool, command_text):
     result = command_pool.handle(command_text)
@@ -36,7 +43,8 @@ def handle_command(command_pool, command_text):
             "chat.postMessage",
             channel=channel,
             text=result,
-         )
+        )
+
 
 if __name__ == "__main__":
     command_pool = CommandPool()
@@ -53,4 +61,3 @@ if __name__ == "__main__":
     else:
         print("Connection failed. Exception traceback printed above.")
     pass
-
