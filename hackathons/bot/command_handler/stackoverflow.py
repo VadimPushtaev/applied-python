@@ -4,9 +4,8 @@ from bs4 import BeautifulSoup
 import requests
 
 
-
 @CommandPool.register_command_class
-class Test1421(CommandHandler):
+class StackOverFlow(CommandHandler):
     def handle(self, text):
         if text.startswith('Stack '):
             ask = text[6:]
