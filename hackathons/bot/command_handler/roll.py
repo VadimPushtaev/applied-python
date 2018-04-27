@@ -5,8 +5,8 @@ import random
 @CommandPool.register_command_class
 class RollHandler(CommandHandler):
     def handle(self, text):
-        if text.startswith('_roll'):
-            text.strip('_roll')
+        if text.startswith('roll'):
+            text.strip('roll')
             args = text.split('d')
             count = args[0]
             edges = args[1]
