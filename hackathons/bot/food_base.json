@@ -1,0 +1,1962 @@
+{
+	"Брынза из коровьего молока": {
+		"water": 52.0,
+		"proteins": 17.9,
+		"fats": 20.1,
+		"carbohydrates": 0.0,
+		"kcal": 260.0
+	},
+	"Йогурт 1.5% жирности": {
+		"water": 88.0,
+		"proteins": 5.0,
+		"fats": 1.5,
+		"carbohydrates": 3.5,
+		"kcal": 51.0
+	},
+	"Кефир обезжиренный": {
+		"water": 91.4,
+		"proteins": 3.0,
+		"fats": 0.1,
+		"carbohydrates": 3.8,
+		"kcal": 30.0
+	},
+	"Кефир жирный": {
+		"water": 88.3,
+		"proteins": 2.8,
+		"fats": 3.2,
+		"carbohydrates": 4.1,
+		"kcal": 59.0
+	},
+	"Молоко": {
+		"water": 88.5,
+		"proteins": 2.8,
+		"fats": 3.2,
+		"carbohydrates": 4.7,
+		"kcal": 58.0
+	},
+	"Молоко сухое цельное": {
+		"water": 4.0,
+		"proteins": 25.6,
+		"fats": 25.0,
+		"carbohydrates": 39.4,
+		"kcal": 475.0
+	},
+	"Молоко сгущеное": {
+		"water": 74.1,
+		"proteins": 7.0,
+		"fats": 7.9,
+		"carbohydrates": 9.5,
+		"kcal": 135.0
+	},
+	"Простокваша": {
+		"water": 88.4,
+		"proteins": 2.8,
+		"fats": 3.2,
+		"carbohydrates": 4.1,
+		"kcal": 58.0
+	},
+	"Ряженка": {
+		"water": 85.3,
+		"proteins": 3.0,
+		"fats": 6.0,
+		"carbohydrates": 4.1,
+		"kcal": 85.0
+	},
+	"Сливки 10%": {
+		"water": 82.2,
+		"proteins": 3.0,
+		"fats": 10.0,
+		"carbohydrates": 4.0,
+		"kcal": 118.0
+	},
+	"Сливки 20%": {
+		"water": 72.9,
+		"proteins": 2.8,
+		"fats": 20.0,
+		"carbohydrates": 3.6,
+		"kcal": 205.0
+	},
+	"Сметана 10%": {
+		"water": 82.7,
+		"proteins": 3.0,
+		"fats": 10.0,
+		"carbohydrates": 2.9,
+		"kcal": 116.0
+	},
+	"Сметана 20%": {
+		"water": 72.7,
+		"proteins": 2.8,
+		"fats": 20.0,
+		"carbohydrates": 3.2,
+		"kcal": 206.0
+	},
+	"Сырки и масса творожная": {
+		"water": 41.0,
+		"proteins": 7.1,
+		"fats": 23.0,
+		"carbohydrates": 27.5,
+		"kcal": 340.0
+	},
+	"Сыр российский": {
+		"water": 40.0,
+		"proteins": 23.4,
+		"fats": 30.0,
+		"carbohydrates": 0.0,
+		"kcal": 371.0
+	},
+	"Сыр голландский": {
+		"water": 38.8,
+		"proteins": 26.8,
+		"fats": 27.3,
+		"carbohydrates": 0.0,
+		"kcal": 361.0
+	},
+	"Сыр швейцарский": {
+		"water": 36.4,
+		"proteins": 24.9,
+		"fats": 31.8,
+		"carbohydrates": 0.0,
+		"kcal": 396.0
+	},
+	"Сыр пошехонский": {
+		"water": 41.0,
+		"proteins": 26.0,
+		"fats": 26.5,
+		"carbohydrates": 0.0,
+		"kcal": 334.0
+	},
+	"Сыр плавленный": {
+		"water": 55.0,
+		"proteins": 24.0,
+		"fats": 13.5,
+		"carbohydrates": 0.0,
+		"kcal": 226.0
+	},
+	"Творог жирный": {
+		"water": 64.7,
+		"proteins": 14.0,
+		"fats": 18.0,
+		"carbohydrates": 1.3,
+		"kcal": 226.0
+	},
+	"Творог полужирный": {
+		"water": 71.0,
+		"proteins": 16.7,
+		"fats": 9.0,
+		"carbohydrates": 1.3,
+		"kcal": 156.0
+	},
+	"Творог обезжиренный": {
+		"water": 77.7,
+		"proteins": 18.0,
+		"fats": 0.6,
+		"carbohydrates": 1.5,
+		"kcal": 86.0
+	},
+	"Шпик свиной": {
+		"water": 5.7,
+		"proteins": 1.4,
+		"fats": 92.8,
+		"carbohydrates": 0.0,
+		"kcal": 816.0
+	},
+	"Маргарин молочный": {
+		"water": 15.9,
+		"proteins": 0.3,
+		"fats": 82.3,
+		"carbohydrates": 1.0,
+		"kcal": 746.0
+	},
+	"Маргарин бутербродный": {
+		"water": 15.8,
+		"proteins": 0.5,
+		"fats": 82.0,
+		"carbohydrates": 1.2,
+		"kcal": 744.0
+	},
+	"Майонез": {
+		"water": 25.0,
+		"proteins": 3.1,
+		"fats": 67.0,
+		"carbohydrates": 2.6,
+		"kcal": 627.0
+	},
+	"Масло оливковое": {
+		"water": 0.2,
+		"proteins": 0.0,
+		"fats": 99.8,
+		"carbohydrates": 0.0,
+		"kcal": 898.0
+	},
+	"Масло кукурузное": {
+		"water": 0.1,
+		"proteins": 0.0,
+		"fats": 99.9,
+		"carbohydrates": 0.0,
+		"kcal": 899.0
+	},
+	"Масло подсолнечное": {
+		"water": 0.1,
+		"proteins": 0.0,
+		"fats": 99.9,
+		"carbohydrates": 0.0,
+		"kcal": 899.0
+	},
+	"Масло сливочное": {
+		"water": 15.8,
+		"proteins": 0.6,
+		"fats": 82.5,
+		"carbohydrates": 0.9,
+		"kcal": 748.0
+	},
+	"Масло топленое": {
+		"water": 1.0,
+		"proteins": 0.3,
+		"fats": 98.0,
+		"carbohydrates": 0.6,
+		"kcal": 887.0
+	},
+	"Хлеб ржаной": {
+		"water": 42.4,
+		"proteins": 4.7,
+		"fats": 0.7,
+		"carbohydrates": 49.8,
+		"kcal": 214.0
+	},
+	"Хлеб пшеничный": {
+		"water": 34.3,
+		"proteins": 7.7,
+		"fats": 2.4,
+		"carbohydrates": 53.4,
+		"kcal": 254.0
+	},
+	"Сдобная выпечка": {
+		"water": 26.1,
+		"proteins": 7.6,
+		"fats": 4.5,
+		"carbohydrates": 60.0,
+		"kcal": 297.0
+	},
+	"Баранки": {
+		"water": 17.0,
+		"proteins": 10.4,
+		"fats": 1.3,
+		"carbohydrates": 68.7,
+		"kcal": 312.0
+	},
+	"Сушки": {
+		"water": 12.0,
+		"proteins": 11.0,
+		"fats": 1.3,
+		"carbohydrates": 73.0,
+		"kcal": 330.0
+	},
+	"Сухари пшеничные": {
+		"water": 12.0,
+		"proteins": 11.2,
+		"fats": 1.4,
+		"carbohydrates": 72.4,
+		"kcal": 331.0
+	},
+	"Сухари сливочные": {
+		"water": 8.0,
+		"proteins": 8.5,
+		"fats": 10.6,
+		"carbohydrates": 71.3,
+		"kcal": 397.0
+	},
+	"Мука пшеничная высш. сорта": {
+		"water": 14.0,
+		"proteins": 10.3,
+		"fats": 0.9,
+		"carbohydrates": 74.2,
+		"kcal": 327.0
+	},
+	"Мука пшеничная I сорт": {
+		"water": 14.0,
+		"proteins": 10.6,
+		"fats": 1.3,
+		"carbohydrates": 73.2,
+		"kcal": 329.0
+	},
+	"Мука пшеничная II сорт": {
+		"water": 14.0,
+		"proteins": 11.7,
+		"fats": 1.8,
+		"carbohydrates": 70.8,
+		"kcal": 328.0
+	},
+	"Мука ржаная": {
+		"water": 14.0,
+		"proteins": 6.9,
+		"fats": 1.1,
+		"carbohydrates": 76.9,
+		"kcal": 326.0
+	},
+	"Гречневая ядрица": {
+		"water": 14.0,
+		"proteins": 12.6,
+		"fats": 2.6,
+		"carbohydrates": 68.0,
+		"kcal": 329.0
+	},
+	"Гречневая продел": {
+		"water": 14.0,
+		"proteins": 9.5,
+		"fats": 1.9,
+		"carbohydrates": 72.2,
+		"kcal": 326.0
+	},
+	"Манная": {
+		"water": 14.0,
+		"proteins": 11.3,
+		"fats": 0.7,
+		"carbohydrates": 73.3,
+		"kcal": 326.0
+	},
+	"Овсяная": {
+		"water": 12.0,
+		"proteins": 11.9,
+		"fats": 5.8,
+		"carbohydrates": 65.4,
+		"kcal": 345.0
+	},
+	"Перловая": {
+		"water": 14.0,
+		"proteins": 9.3,
+		"fats": 1.1,
+		"carbohydrates": 73.7,
+		"kcal": 324.0
+	},
+	"Пшено": {
+		"water": 14.0,
+		"proteins": 12.0,
+		"fats": 2.9,
+		"carbohydrates": 69.3,
+		"kcal": 334.0
+	},
+	"Рисовая": {
+		"water": 14.0,
+		"proteins": 7.0,
+		"fats": 0.6,
+		"carbohydrates": 73.7,
+		"kcal": 323.0
+	},
+	"Пшеничная “Полтавская”": {
+		"water": 14.0,
+		"proteins": 12.7,
+		"fats": 1.1,
+		"carbohydrates": 70.6,
+		"kcal": 325.0
+	},
+	"Толокно": {
+		"water": 10.0,
+		"proteins": 12.2,
+		"fats": 5.8,
+		"carbohydrates": 68.3,
+		"kcal": 357.0
+	},
+	"Ячневая": {
+		"water": 14.0,
+		"proteins": 10.4,
+		"fats": 1.3,
+		"carbohydrates": 71.7,
+		"kcal": 322.0
+	},
+	"Геркулес": {
+		"water": 12.0,
+		"proteins": 13.1,
+		"fats": 6.2,
+		"carbohydrates": 65.7,
+		"kcal": 355.0
+	},
+	"Кукурузная": {
+		"water": 14.0,
+		"proteins": 8.3,
+		"fats": 1.2,
+		"carbohydrates": 75.0,
+		"kcal": 325.0
+	},
+	"Баклажаны": {
+		"water": 91.0,
+		"proteins": 0.6,
+		"fats": 0.1,
+		"carbohydrates": 5.5,
+		"kcal": 24.0
+	},
+	"Брюква": {
+		"water": 87.5,
+		"proteins": 1.2,
+		"fats": 0.1,
+		"carbohydrates": 8.1,
+		"kcal": 37.0
+	},
+	"Горошек зеленый": {
+		"water": 80.0,
+		"proteins": 5.0,
+		"fats": 0.2,
+		"carbohydrates": 13.3,
+		"kcal": 72.0
+	},
+	"Кабачки": {
+		"water": 93.0,
+		"proteins": 0.6,
+		"fats": 0.3,
+		"carbohydrates": 5.7,
+		"kcal": 27.0
+	},
+	"Капуста белокочанная": {
+		"water": 90.0,
+		"proteins": 1.8,
+		"fats": 0,
+		"carbohydrates": 5.4,
+		"kcal": 28.0
+	},
+	"Капуста краснокочанная": {
+		"water": 90.0,
+		"proteins": 1.8,
+		"fats": 0,
+		"carbohydrates": 6.1,
+		"kcal": 31.0
+	},
+	"Капуста цветная": {
+		"water": 90.9,
+		"proteins": 2.5,
+		"fats": 0,
+		"carbohydrates": 4.9,
+		"kcal": 29.0
+	},
+	"Картофель": {
+		"water": 76.0,
+		"proteins": 2.0,
+		"fats": 0.1,
+		"carbohydrates": 19.7,
+		"kcal": 83.0
+	},
+	"Лук зеленый (перо)": {
+		"water": 92.5,
+		"proteins": 1.3,
+		"fats": 0,
+		"carbohydrates": 4.3,
+		"kcal": 22.0
+	},
+	"Лук порей": {
+		"water": 87.0,
+		"proteins": 3.0,
+		"fats": 0,
+		"carbohydrates": 7.3,
+		"kcal": 40.0
+	},
+	"Лук репчатый": {
+		"water": 86.0,
+		"proteins": 1.7,
+		"fats": 0,
+		"carbohydrates": 9.5,
+		"kcal": 43.0
+	},
+	"Морковь красная": {
+		"water": 88.5,
+		"proteins": 1.3,
+		"fats": 0.1,
+		"carbohydrates": 7.0,
+		"kcal": 33.0
+	},
+	"Огурцы грунтовые": {
+		"water": 95.0,
+		"proteins": 0.8,
+		"fats": 0,
+		"carbohydrates": 3.0,
+		"kcal": 15.0
+	},
+	"Огурцы парниковые": {
+		"water": 96.5,
+		"proteins": 0.7,
+		"fats": 0,
+		"carbohydrates": 1.8,
+		"kcal": 10.0
+	},
+	"Перец зеленый сладкий": {
+		"water": 92.0,
+		"proteins": 1.3,
+		"fats": 0,
+		"carbohydrates": 4.7,
+		"kcal": 23.0
+	},
+	"Перец красный сладкий": {
+		"water": 91.0,
+		"proteins": 1.3,
+		"fats": 0,
+		"carbohydrates": 5.7,
+		"kcal": 27.0
+	},
+	"Петрушка (зелень)": {
+		"water": 85.0,
+		"proteins": 3.7,
+		"fats": 0,
+		"carbohydrates": 8.1,
+		"kcal": 45.0
+	},
+	"Петрушка (корень)": {
+		"water": 85.0,
+		"proteins": 1.5,
+		"fats": 0,
+		"carbohydrates": 11.0,
+		"kcal": 47.0
+	},
+	"Ревень (черешковый)": {
+		"water": 94.5,
+		"proteins": 0.7,
+		"fats": 0,
+		"carbohydrates": 2.9,
+		"kcal": 16.0
+	},
+	"Редис": {
+		"water": 93.0,
+		"proteins": 1.2,
+		"fats": 0,
+		"carbohydrates": 4.1,
+		"kcal": 20.0
+	},
+	"Редька": {
+		"water": 88.6,
+		"proteins": 1.9,
+		"fats": 0,
+		"carbohydrates": 7.0,
+		"kcal": 34.0
+	},
+	"Репа": {
+		"water": 90.5,
+		"proteins": 1.5,
+		"fats": 0,
+		"carbohydrates": 5.9,
+		"kcal": 28.0
+	},
+	"Салат": {
+		"water": 95.0,
+		"proteins": 1.5,
+		"fats": 0,
+		"carbohydrates": 2.2,
+		"kcal": 14.0
+	},
+	"Свекла": {
+		"water": 86.5,
+		"proteins": 1.7,
+		"fats": 0,
+		"carbohydrates": 10.8,
+		"kcal": 48.0
+	},
+	"Томаты (грунтовые)": {
+		"water": 93.5,
+		"proteins": 0.6,
+		"fats": 0,
+		"carbohydrates": 4.2,
+		"kcal": 19.0
+	},
+	"Томаты (парниковые)": {
+		"water": 94.6,
+		"proteins": 0.6,
+		"fats": 0,
+		"carbohydrates": 2.9,
+		"kcal": 14.0
+	},
+	"Зеленая фасоль": {
+		"water": 90.0,
+		"proteins": 4.0,
+		"fats": 0,
+		"carbohydrates": 4.3,
+		"kcal": 32.0
+	},
+	"Хрен": {
+		"water": 77.0,
+		"proteins": 2.5,
+		"fats": 0,
+		"carbohydrates": 16.3,
+		"kcal": 71.0
+	},
+	"Черемша": {
+		"water": 89.0,
+		"proteins": 2.4,
+		"fats": 0,
+		"carbohydrates": 6.5,
+		"kcal": 34.0
+	},
+	"Чеснок": {
+		"water": 70.0,
+		"proteins": 6.5,
+		"fats": 0,
+		"carbohydrates": 21.2,
+		"kcal": 106.0
+	},
+	"Шпинат": {
+		"water": 91.2,
+		"proteins": 2.9,
+		"fats": 0,
+		"carbohydrates": 2.3,
+		"kcal": 21.0
+	},
+	"Щавель": {
+		"water": 90.0,
+		"proteins": 1.5,
+		"fats": 0,
+		"carbohydrates": 5.3,
+		"kcal": 28.0
+	},
+	"Абрикосы": {
+		"water": 86.0,
+		"proteins": 0.9,
+		"fats": 0,
+		"carbohydrates": 10.5,
+		"kcal": 46.0
+	},
+	"Айва": {
+		"water": 87.5,
+		"proteins": 0.6,
+		"fats": 0,
+		"carbohydrates": 8.9,
+		"kcal": 38.0
+	},
+	"Алыча": {
+		"water": 89.0,
+		"proteins": 0.2,
+		"fats": 0,
+		"carbohydrates": 7.4,
+		"kcal": 34.0
+	},
+	"Ананас": {
+		"water": 86.0,
+		"proteins": 0.4,
+		"fats": 0,
+		"carbohydrates": 11.8,
+		"kcal": 48.0
+	},
+	"Бананы": {
+		"water": 74.0,
+		"proteins": 1.5,
+		"fats": 0,
+		"carbohydrates": 22.4,
+		"kcal": 91.0
+	},
+	"Вишня": {
+		"water": 18.0,
+		"proteins": 1.5,
+		"fats": 0,
+		"carbohydrates": 73.0,
+		"kcal": 292.0
+	},
+	"Гранат": {
+		"water": 85.0,
+		"proteins": 0.9,
+		"fats": 0,
+		"carbohydrates": 11.8,
+		"kcal": 52.0
+	},
+	"Груша": {
+		"water": 24.0,
+		"proteins": 2.3,
+		"fats": 0,
+		"carbohydrates": 62.1,
+		"kcal": 246.0
+	},
+	"Инжир": {
+		"water": 83.0,
+		"proteins": 0.7,
+		"fats": 0,
+		"carbohydrates": 13.9,
+		"kcal": 56.0
+	},
+	"Кизил": {
+		"water": 85.0,
+		"proteins": 1.0,
+		"fats": 0,
+		"carbohydrates": 9.7,
+		"kcal": 45.0
+	},
+	"Персики": {
+		"water": 18.0,
+		"proteins": 3.0,
+		"fats": 0,
+		"carbohydrates": 68.5,
+		"kcal": 275.0
+	},
+	"Рябина садовая": {
+		"water": 81.0,
+		"proteins": 1.4,
+		"fats": 0,
+		"carbohydrates": 12.5,
+		"kcal": 58.0
+	},
+	"Рябина черноплодная": {
+		"water": 80.5,
+		"proteins": 1.5,
+		"fats": 0,
+		"carbohydrates": 12.0,
+		"kcal": 54.0
+	},
+	"Слива садовая": {
+		"water": 87.0,
+		"proteins": 0.8,
+		"fats": 0,
+		"carbohydrates": 9.9,
+		"kcal": 43.0
+	},
+	"Финики": {
+		"water": 20.0,
+		"proteins": 2.5,
+		"fats": 0,
+		"carbohydrates": 72.1,
+		"kcal": 281.0
+	},
+	"Хурма": {
+		"water": 81.5,
+		"proteins": 0.5,
+		"fats": 0,
+		"carbohydrates": 15.9,
+		"kcal": 62.0
+	},
+	"Авокадо": {
+		"water": 73.2,
+		"proteins": 2.0,
+		"fats": 14.7,
+		"carbohydrates": 8.5,
+		"kcal": 160.0
+	},
+	"Черешня": {
+		"water": 85.0,
+		"proteins": 1.1,
+		"fats": 0,
+		"carbohydrates": 12.3,
+		"kcal": 52.0
+	},
+	"Шелковица": {
+		"water": 82.7,
+		"proteins": 0.7,
+		"fats": 0,
+		"carbohydrates": 12.7,
+		"kcal": 53.0
+	},
+	"Яблоки": {
+		"water": 20.0,
+		"proteins": 3.2,
+		"fats": 0,
+		"carbohydrates": 68.0,
+		"kcal": 273.0
+	},
+	"Апельсин": {
+		"water": 87.5,
+		"proteins": 0.9,
+		"fats": 0,
+		"carbohydrates": 8.4,
+		"kcal": 38.0
+	},
+	"Грейпфрут": {
+		"water": 89.0,
+		"proteins": 0.9,
+		"fats": 0,
+		"carbohydrates": 7.3,
+		"kcal": 35.0
+	},
+	"Лимон": {
+		"water": 87.7,
+		"proteins": 0.9,
+		"fats": 0,
+		"carbohydrates": 3.6,
+		"kcal": 31.0
+	},
+	"Мандарин": {
+		"water": 88.5,
+		"proteins": 0.8,
+		"fats": 0,
+		"carbohydrates": 8.6,
+		"kcal": 38.0
+	},
+	"Брусника": {
+		"water": 87.0,
+		"proteins": 0.7,
+		"fats": 0,
+		"carbohydrates": 8.6,
+		"kcal": 40.0
+	},
+	"Виноград": {
+		"water": 80.2,
+		"proteins": 0.4,
+		"fats": 0,
+		"carbohydrates": 17.5,
+		"kcal": 69.0
+	},
+	"Голубика": {
+		"water": 88.2,
+		"proteins": 1.0,
+		"fats": 0,
+		"carbohydrates": 7.7,
+		"kcal": 37.0
+	},
+	"Ежевика": {
+		"water": 88.0,
+		"proteins": 2.0,
+		"fats": 0,
+		"carbohydrates": 5.3,
+		"kcal": 33.0
+	},
+	"Земляника": {
+		"water": 84.5,
+		"proteins": 1.8,
+		"fats": 0,
+		"carbohydrates": 8.1,
+		"kcal": 41.0
+	},
+	"Клюква": {
+		"water": 89.5,
+		"proteins": 0.5,
+		"fats": 0,
+		"carbohydrates": 4.8,
+		"kcal": 28.0
+	},
+	"Крыжовник": {
+		"water": 85.0,
+		"proteins": 0.7,
+		"fats": 0,
+		"carbohydrates": 9.9,
+		"kcal": 44.0
+	},
+	"Малина": {
+		"water": 87.0,
+		"proteins": 0.8,
+		"fats": 0,
+		"carbohydrates": 9.0,
+		"kcal": 41.0
+	},
+	"Морошка": {
+		"water": 83.3,
+		"proteins": 0.8,
+		"fats": 0,
+		"carbohydrates": 6.8,
+		"kcal": 31.0
+	},
+	"Облепиха": {
+		"water": 75.0,
+		"proteins": 0.9,
+		"fats": 0,
+		"carbohydrates": 5.5,
+		"kcal": 30.0
+	},
+	"Смородина белая": {
+		"water": 86.0,
+		"proteins": 0.3,
+		"fats": 0,
+		"carbohydrates": 8.7,
+		"kcal": 39.0
+	},
+	"Смородина красная": {
+		"water": 85.4,
+		"proteins": 0.6,
+		"fats": 0,
+		"carbohydrates": 8.0,
+		"kcal": 38.0
+	},
+	"Смородина черная": {
+		"water": 85.0,
+		"proteins": 1.0,
+		"fats": 0,
+		"carbohydrates": 8.0,
+		"kcal": 40.0
+	},
+	"Черника": {
+		"water": 86.5,
+		"proteins": 1.1,
+		"fats": 0,
+		"carbohydrates": 8.6,
+		"kcal": 40.0
+	},
+	"Шиповник свежий": {
+		"water": 66.0,
+		"proteins": 1.6,
+		"fats": 0,
+		"carbohydrates": 24.0,
+		"kcal": 101.0
+	},
+	"Шиповник сушеный": {
+		"water": 14.0,
+		"proteins": 4.0,
+		"fats": 0,
+		"carbohydrates": 60.0,
+		"kcal": 253.0
+	},
+	"Урюк": {
+		"water": 18.0,
+		"proteins": 5.0,
+		"fats": 0,
+		"carbohydrates": 67.5,
+		"kcal": 278.0
+	},
+	"Курага": {
+		"water": 20.2,
+		"proteins": 5.2,
+		"fats": 0,
+		"carbohydrates": 65.9,
+		"kcal": 272.0
+	},
+	"Изюм с косточкой": {
+		"water": 19.0,
+		"proteins": 1.8,
+		"fats": 0,
+		"carbohydrates": 70.9,
+		"kcal": 276.0
+	},
+	"Изюм кишмиш": {
+		"water": 18.0,
+		"proteins": 2.3,
+		"fats": 0,
+		"carbohydrates": 71.2,
+		"kcal": 279.0
+	},
+	"Чернослив": {
+		"water": 25.0,
+		"proteins": 2.3,
+		"fats": 0,
+		"carbohydrates": 65.6,
+		"kcal": 264.0
+	},
+	"Фундук": {
+		"water": 4.8,
+		"proteins": 16.1,
+		"fats": 66.9,
+		"carbohydrates": 9.9,
+		"kcal": 704.0
+	},
+	"Миндаль": {
+		"water": 4.0,
+		"proteins": 18.6,
+		"fats": 57.7,
+		"carbohydrates": 13.6,
+		"kcal": 645.0
+	},
+	"Грецкий орех": {
+		"water": 5.0,
+		"proteins": 13.8,
+		"fats": 61.3,
+		"carbohydrates": 10.2,
+		"kcal": 648.0
+	},
+	"Арахис": {
+		"water": 10.0,
+		"proteins": 26.3,
+		"fats": 45.2,
+		"carbohydrates": 9.7,
+		"kcal": 548.0
+	},
+	"Семя подсолнечника": {
+		"water": 8.0,
+		"proteins": 20.7,
+		"fats": 52.9,
+		"carbohydrates": 5.0,
+		"kcal": 578.0
+	},
+	"Кедровые орехи": {
+		"water": 2.3,
+		"proteins": 13.7,
+		"fats": 68.4,
+		"carbohydrates": 13.1,
+		"kcal": 673.0
+	},
+	"Фисташки, без соли": {
+		"water": 2.0,
+		"proteins": 21.4,
+		"fats": 46.0,
+		"carbohydrates": 27.7,
+		"kcal": 571.0
+	},
+	"Баранина": {
+		"water": 67.6,
+		"proteins": 16.3,
+		"fats": 15.3,
+		"carbohydrates": 0.0,
+		"kcal": 203.0
+	},
+	"Говядина": {
+		"water": 67.7,
+		"proteins": 18.9,
+		"fats": 12.4,
+		"carbohydrates": 0.0,
+		"kcal": 187.0
+	},
+	"Конина": {
+		"water": 72.5,
+		"proteins": 20.2,
+		"fats": 7.0,
+		"carbohydrates": 0.0,
+		"kcal": 143.0
+	},
+	"Кролик": {
+		"water": 65.3,
+		"proteins": 20.7,
+		"fats": 12.9,
+		"carbohydrates": 0.0,
+		"kcal": 199.0
+	},
+	"Свинина нежирная": {
+		"water": 54.8,
+		"proteins": 16.4,
+		"fats": 27.8,
+		"carbohydrates": 0.0,
+		"kcal": 316.0
+	},
+	"Свинина жирная": {
+		"water": 38.7,
+		"proteins": 11.4,
+		"fats": 49.3,
+		"carbohydrates": 0.0,
+		"kcal": 489.0
+	},
+	"Телятина": {
+		"water": 78.0,
+		"proteins": 19.7,
+		"fats": 1.2,
+		"carbohydrates": 0.0,
+		"kcal": 90.0
+	},
+	"Бараньи Почки": {
+		"water": 79.7,
+		"proteins": 13.6,
+		"fats": 2.5,
+		"carbohydrates": 0.0,
+		"kcal": 77.0
+	},
+	"Баранья Печень": {
+		"water": 71.2,
+		"proteins": 18.7,
+		"fats": 2.9,
+		"carbohydrates": 0.0,
+		"kcal": 101.0
+	},
+	"Баранье Сердце": {
+		"water": 78.5,
+		"proteins": 13.5,
+		"fats": 2.5,
+		"carbohydrates": 0.0,
+		"kcal": 82.0
+	},
+	"Говяжьи Мозги": {
+		"water": 78.9,
+		"proteins": 9.5,
+		"fats": 9.5,
+		"carbohydrates": 0.0,
+		"kcal": 124.0
+	},
+	"Говяжья Печень": {
+		"water": 72.9,
+		"proteins": 17.4,
+		"fats": 3.1,
+		"carbohydrates": 0.0,
+		"kcal": 98.0
+	},
+	"Говяжьи Почки": {
+		"water": 82.7,
+		"proteins": 12.5,
+		"fats": 1.8,
+		"carbohydrates": 0.0,
+		"kcal": 66.0
+	},
+	"Говяжье Вымя": {
+		"water": 72.6,
+		"proteins": 12.3,
+		"fats": 13.7,
+		"carbohydrates": 0.0,
+		"kcal": 173.0
+	},
+	"Говяжье Сердце": {
+		"water": 79.0,
+		"proteins": 15.0,
+		"fats": 3.0,
+		"carbohydrates": 0.0,
+		"kcal": 87.0
+	},
+	"Говяжий Язык": {
+		"water": 71.2,
+		"proteins": 13.6,
+		"fats": 12.1,
+		"carbohydrates": 0.0,
+		"kcal": 163.0
+	},
+	"Почки свинные": {
+		"water": 80.1,
+		"proteins": 13.0,
+		"fats": 3.1,
+		"carbohydrates": 0.0,
+		"kcal": 80.0
+	},
+	"Печень свинная": {
+		"water": 71.4,
+		"proteins": 18.8,
+		"fats": 3.6,
+		"carbohydrates": 0.0,
+		"kcal": 108.0
+	},
+	"Сердце свинное": {
+		"water": 78.0,
+		"proteins": 15.1,
+		"fats": 3.2,
+		"carbohydrates": 0.0,
+		"kcal": 89.0
+	},
+	"Язык свинной": {
+		"water": 66.1,
+		"proteins": 14.2,
+		"fats": 16.8,
+		"carbohydrates": 0.0,
+		"kcal": 208.0
+	},
+	"Гуси": {
+		"water": 49.7,
+		"proteins": 16.1,
+		"fats": 33.3,
+		"carbohydrates": 0.0,
+		"kcal": 364.0
+	},
+	"Индейка": {
+		"water": 64.5,
+		"proteins": 21.6,
+		"fats": 12.0,
+		"carbohydrates": 0.8,
+		"kcal": 197.0
+	},
+	"Цыплята": {
+		"water": 71.3,
+		"proteins": 18.7,
+		"fats": 7.8,
+		"carbohydrates": 0.4,
+		"kcal": 156.0
+	},
+	"Утки": {
+		"water": 51.5,
+		"proteins": 16.5,
+		"fats": 61.2,
+		"carbohydrates": 0.0,
+		"kcal": 346.0
+	},
+	"Курица, белое мясо": {
+		"water": 74.9,
+		"proteins": 23.2,
+		"fats": 1.7,
+		"carbohydrates": 0.0,
+		"kcal": 114.0
+	},
+	"Курица, голень": {
+		"water": 72.5,
+		"proteins": 19.3,
+		"fats": 8.7,
+		"carbohydrates": 0.0,
+		"kcal": 161.0
+	},
+	"Курица, бедро": {
+		"water": 67.7,
+		"proteins": 17.3,
+		"fats": 15.3,
+		"carbohydrates": 0.0,
+		"kcal": 211.0
+	},
+	"Курица, красное мясо": {
+		"water": 65.4,
+		"proteins": 16.7,
+		"fats": 18.3,
+		"carbohydrates": 0.0,
+		"kcal": 237.0
+	},
+	"Вареная колбаса Диабетическая": {
+		"water": 62.4,
+		"proteins": 12.1,
+		"fats": 22.8,
+		"carbohydrates": 0.0,
+		"kcal": 254.0
+	},
+	"Вареная колбаса Диетическая": {
+		"water": 71.6,
+		"proteins": 12.1,
+		"fats": 13.5,
+		"carbohydrates": 0.0,
+		"kcal": 170.0
+	},
+	"Колбаса Докторская": {
+		"water": 60.8,
+		"proteins": 13.7,
+		"fats": 22.8,
+		"carbohydrates": 0.0,
+		"kcal": 260.0
+	},
+	"Колбаса Любительская": {
+		"water": 39.1,
+		"proteins": 17.3,
+		"fats": 39.0,
+		"carbohydrates": 0.0,
+		"kcal": 420.0
+	},
+	"Колбаса Молочная": {
+		"water": 62.8,
+		"proteins": 11.7,
+		"fats": 22.8,
+		"carbohydrates": 0.0,
+		"kcal": 252.0
+	},
+	"Колбаса Отдельная": {
+		"water": 64.8,
+		"proteins": 10.1,
+		"fats": 20.1,
+		"carbohydrates": 1.8,
+		"kcal": 228.0
+	},
+	"Колбаса Телячья": {
+		"water": 55.0,
+		"proteins": 12.5,
+		"fats": 29.6,
+		"carbohydrates": 0.0,
+		"kcal": 316.0
+	},
+	"Сардельки Свиные": {
+		"water": 53.7,
+		"proteins": 10.1,
+		"fats": 31.6,
+		"carbohydrates": 1.9,
+		"kcal": 332.0
+	},
+	"Сосиски Молочные": {
+		"water": 60.0,
+		"proteins": 12.3,
+		"fats": 25.3,
+		"carbohydrates": 0.0,
+		"kcal": 277.0
+	},
+	"Сосиски Русские": {
+		"water": 66.2,
+		"proteins": 12.0,
+		"fats": 19.1,
+		"carbohydrates": 0.0,
+		"kcal": 220.0
+	},
+	"Сосиски Свиные": {
+		"water": 54.8,
+		"proteins": 11.8,
+		"fats": 30.8,
+		"carbohydrates": 0.0,
+		"kcal": 324.0
+	},
+	"Колбаса Сервелат": {
+		"water": 39.6,
+		"proteins": 28.2,
+		"fats": 27.5,
+		"carbohydrates": 0.0,
+		"kcal": 360.0
+	},
+	"Полукопченая Краковская": {
+		"water": 34.6,
+		"proteins": 16.2,
+		"fats": 44.6,
+		"carbohydrates": 0.0,
+		"kcal": 466.0
+	},
+	"Полукопченая Минская": {
+		"water": 52.0,
+		"proteins": 23.0,
+		"fats": 17.4,
+		"carbohydrates": 2.7,
+		"kcal": 259.0
+	},
+	"Полукопченая Полтавская": {
+		"water": 39.8,
+		"proteins": 16.4,
+		"fats": 39.0,
+		"carbohydrates": 0.0,
+		"kcal": 417.0
+	},
+	"Полукопченая Украинская": {
+		"water": 44.4,
+		"proteins": 16.5,
+		"fats": 34.4,
+		"carbohydrates": 0.0,
+		"kcal": 376.0
+	},
+	"Сырокопченая Любительская": {
+		"water": 25.2,
+		"proteins": 20.9,
+		"fats": 47.8,
+		"carbohydrates": 0.0,
+		"kcal": 514.0
+	},
+	"Сырокопченая Московская": {
+		"water": 27.6,
+		"proteins": 24.8,
+		"fats": 41.5,
+		"carbohydrates": 0.0,
+		"kcal": 473.0
+	},
+	"Грудинка сырокопченая": {
+		"water": 21.0,
+		"proteins": 7.6,
+		"fats": 66.8,
+		"carbohydrates": 0.0,
+		"kcal": 632.0
+	},
+	"Корейка сырокопченая": {
+		"water": 37.3,
+		"proteins": 10.5,
+		"fats": 47.2,
+		"carbohydrates": 0.0,
+		"kcal": 467.0
+	},
+	"Ветчина": {
+		"water": 53.5,
+		"proteins": 22.6,
+		"fats": 20.9,
+		"carbohydrates": 0.0,
+		"kcal": 279.0
+	},
+	"Бычки": {
+		"water": 70.8,
+		"proteins": 12.8,
+		"fats": 8.1,
+		"carbohydrates": 5.2,
+		"kcal": 145.0
+	},
+	"Горбуша": {
+		"water": 70.5,
+		"proteins": 21.0,
+		"fats": 7.0,
+		"carbohydrates": 0.0,
+		"kcal": 147.0
+	},
+	"Камбала": {
+		"water": 79.5,
+		"proteins": 16.1,
+		"fats": 2.6,
+		"carbohydrates": 0.0,
+		"kcal": 88.0
+	},
+	"Карась": {
+		"water": 78.9,
+		"proteins": 17.7,
+		"fats": 1.8,
+		"carbohydrates": 0.0,
+		"kcal": 87.0
+	},
+	"Карп": {
+		"water": 79.1,
+		"proteins": 16.0,
+		"fats": 3.6,
+		"carbohydrates": 0.0,
+		"kcal": 96.0
+	},
+	"Кета": {
+		"water": 71.3,
+		"proteins": 22.0,
+		"fats": 5.6,
+		"carbohydrates": 0.0,
+		"kcal": 138.0
+	},
+	"Корюшка": {
+		"water": 79.8,
+		"proteins": 15.5,
+		"fats": 3.2,
+		"carbohydrates": 0.0,
+		"kcal": 91.0
+	},
+	"Ледяная": {
+		"water": 81.8,
+		"proteins": 15.5,
+		"fats": 1.4,
+		"carbohydrates": 0.0,
+		"kcal": 75.0
+	},
+	"Лещ": {
+		"water": 77.7,
+		"proteins": 17.1,
+		"fats": 4.1,
+		"carbohydrates": 0.0,
+		"kcal": 105.0
+	},
+	"Семга": {
+		"water": 62.9,
+		"proteins": 20.8,
+		"fats": 15.1,
+		"carbohydrates": 0.0,
+		"kcal": 219.0
+	},
+	"Макрурус": {
+		"water": 85.0,
+		"proteins": 13.2,
+		"fats": 0.8,
+		"carbohydrates": 0.0,
+		"kcal": 60.0
+	},
+	"Минога": {
+		"water": 75.0,
+		"proteins": 14.7,
+		"fats": 11.9,
+		"carbohydrates": 0.0,
+		"kcal": 166.0
+	},
+	"Минтай": {
+		"water": 80.1,
+		"proteins": 15.9,
+		"fats": 0.7,
+		"carbohydrates": 0.0,
+		"kcal": 70.0
+	},
+	"Мойва": {
+		"water": 75.0,
+		"proteins": 13.4,
+		"fats": 11.5,
+		"carbohydrates": 0.0,
+		"kcal": 157.0
+	},
+	"Навага": {
+		"water": 81.1,
+		"proteins": 16.1,
+		"fats": 1.0,
+		"carbohydrates": 0.0,
+		"kcal": 73.0
+	},
+	"Налим": {
+		"water": 79.3,
+		"proteins": 18.8,
+		"fats": 0.6,
+		"carbohydrates": 0.0,
+		"kcal": 81.0
+	},
+	"Нототения мраморная": {
+		"water": 73.4,
+		"proteins": 14.8,
+		"fats": 10.7,
+		"carbohydrates": 0.0,
+		"kcal": 156.0
+	},
+	"Окунь морской": {
+		"water": 75.4,
+		"proteins": 17.6,
+		"fats": 5.2,
+		"carbohydrates": 0.0,
+		"kcal": 117.0
+	},
+	"Окунь речной": {
+		"water": 79.2,
+		"proteins": 18.5,
+		"fats": 0.9,
+		"carbohydrates": 0.0,
+		"kcal": 82.0
+	},
+	"Осетр": {
+		"water": 71.4,
+		"proteins": 16.4,
+		"fats": 10.9,
+		"carbohydrates": 0.0,
+		"kcal": 164.0
+	},
+	"Палтус": {
+		"water": 76.9,
+		"proteins": 18.9,
+		"fats": 3.0,
+		"carbohydrates": 0.0,
+		"kcal": 103.0
+	},
+	"Путассу": {
+		"water": 81.3,
+		"proteins": 16.1,
+		"fats": 0.9,
+		"carbohydrates": 0.0,
+		"kcal": 72.0
+	},
+	"Рыба-сабля": {
+		"water": 75.2,
+		"proteins": 20.3,
+		"fats": 3.2,
+		"carbohydrates": 0.0,
+		"kcal": 110.0
+	},
+	"Рыбец каспийский": {
+		"water": 77.0,
+		"proteins": 19.2,
+		"fats": 2.4,
+		"carbohydrates": 0.0,
+		"kcal": 98.0
+	},
+	"Сазан": {
+		"water": 75.3,
+		"proteins": 18.4,
+		"fats": 5.3,
+		"carbohydrates": 0.0,
+		"kcal": 121.0
+	},
+	"Сайра крупная": {
+		"water": 59.8,
+		"proteins": 18.6,
+		"fats": 20.8,
+		"carbohydrates": 0.0,
+		"kcal": 262.0
+	},
+	"Сайра мелкая": {
+		"water": 71.3,
+		"proteins": 20.4,
+		"fats": 0.8,
+		"carbohydrates": 0.0,
+		"kcal": 143.0
+	},
+	"Салака": {
+		"water": 75.4,
+		"proteins": 17.3,
+		"fats": 5.6,
+		"carbohydrates": 0.0,
+		"kcal": 121.0
+	},
+	"Сельдь": {
+		"water": 62.7,
+		"proteins": 17.7,
+		"fats": 19.5,
+		"carbohydrates": 0.0,
+		"kcal": 242.0
+	},
+	"Сиг": {
+		"water": 72.3,
+		"proteins": 19.0,
+		"fats": 7.5,
+		"carbohydrates": 0.0,
+		"kcal": 144.0
+	},
+	"Скумбрия": {
+		"water": 71.8,
+		"proteins": 18.0,
+		"fats": 9.0,
+		"carbohydrates": 0.0,
+		"kcal": 153.0
+	},
+	"Сом": {
+		"water": 75.0,
+		"proteins": 16.8,
+		"fats": 8.5,
+		"carbohydrates": 0.0,
+		"kcal": 144.0
+	},
+	"Ставрида": {
+		"water": 74.9,
+		"proteins": 18.5,
+		"fats": 5.0,
+		"carbohydrates": 0.0,
+		"kcal": 119.0
+	},
+	"Стерлядь": {
+		"water": 74.9,
+		"proteins": 17.0,
+		"fats": 6.1,
+		"carbohydrates": 0.0,
+		"kcal": 320.0
+	},
+	"Судак": {
+		"water": 78.9,
+		"proteins": 19.0,
+		"fats": 0.8,
+		"carbohydrates": 0.0,
+		"kcal": 83.0
+	},
+	"Треска": {
+		"water": 80.7,
+		"proteins": 17.5,
+		"fats": 0.6,
+		"carbohydrates": 0.0,
+		"kcal": 75.0
+	},
+	"Тунец": {
+		"water": 74.0,
+		"proteins": 22.7,
+		"fats": 0.7,
+		"carbohydrates": 0.0,
+		"kcal": 96.0
+	},
+	"Угольная рыба": {
+		"water": 71.5,
+		"proteins": 13.2,
+		"fats": 11.6,
+		"carbohydrates": 0.0,
+		"kcal": 158.0
+	},
+	"Угорь морской": {
+		"water": 77.5,
+		"proteins": 19.1,
+		"fats": 1.9,
+		"carbohydrates": 0.0,
+		"kcal": 94.0
+	},
+	"Угорь": {
+		"water": 53.5,
+		"proteins": 14.5,
+		"fats": 30.5,
+		"carbohydrates": 0.0,
+		"kcal": 333.0
+	},
+	"Хек": {
+		"water": 79.9,
+		"proteins": 16.6,
+		"fats": 2.2,
+		"carbohydrates": 0.0,
+		"kcal": 86.0
+	},
+	"Щука": {
+		"water": 70.4,
+		"proteins": 18.8,
+		"fats": 0.7,
+		"carbohydrates": 0.0,
+		"kcal": 82.0
+	},
+	"Язь": {
+		"water": 80.1,
+		"proteins": 18.2,
+		"fats": 0.3,
+		"carbohydrates": 0.0,
+		"kcal": 117.0
+	},
+	"Креветка дальневосточная": {
+		"water": 64.8,
+		"proteins": 28.7,
+		"fats": 1.2,
+		"carbohydrates": 0.0,
+		"kcal": 134.0
+	},
+	"Печень трески": {
+		"water": 26.4,
+		"proteins": 4.2,
+		"fats": 65.7,
+		"carbohydrates": 0.0,
+		"kcal": 613.0
+	},
+	"Кальмар": {
+		"water": 80.3,
+		"proteins": 18.0,
+		"fats": 0.3,
+		"carbohydrates": 0.0,
+		"kcal": 75.0
+	},
+	"Краб": {
+		"water": 81.5,
+		"proteins": 16.0,
+		"fats": 0.5,
+		"carbohydrates": 0.0,
+		"kcal": 69.0
+	},
+	"Креветка": {
+		"water": 77.5,
+		"proteins": 18.0,
+		"fats": 0.8,
+		"carbohydrates": 0.0,
+		"kcal": 83.0
+	},
+	"Морская капуста": {
+		"water": 88.0,
+		"proteins": 0.9,
+		"fats": 0.2,
+		"carbohydrates": 3.0,
+		"kcal": 5.0
+	},
+	"Паста “Океан”": {
+		"water": 72.2,
+		"proteins": 18.9,
+		"fats": 6.8,
+		"carbohydrates": 0.0,
+		"kcal": 137.0
+	},
+	"Трепанг": {
+		"water": 89.4,
+		"proteins": 7.3,
+		"fats": 0.6,
+		"carbohydrates": 0.0,
+		"kcal": 35.0
+	},
+	"Кеты зернистая": {
+		"water": 46.9,
+		"proteins": 31.6,
+		"fats": 13.8,
+		"carbohydrates": 0.0,
+		"kcal": 251.0
+	},
+	"Лещевая пробойная": {
+		"water": 58.0,
+		"proteins": 24.7,
+		"fats": 4.8,
+		"carbohydrates": 0.0,
+		"kcal": 142.0
+	},
+	"Минтаевая пробойная": {
+		"water": 63.2,
+		"proteins": 28.4,
+		"fats": 1.9,
+		"carbohydrates": 0.0,
+		"kcal": 131.0
+	},
+	"Осетровая зернистая": {
+		"water": 58.0,
+		"proteins": 28.9,
+		"fats": 9.7,
+		"carbohydrates": 0.0,
+		"kcal": 203.0
+	},
+	"Осетровая пробойная": {
+		"water": 39.5,
+		"proteins": 36.0,
+		"fats": 10.2,
+		"carbohydrates": 0.0,
+		"kcal": 123.0
+	},
+	"Мед": {
+		"water": 17.2,
+		"proteins": 0.8,
+		"fats": 0.0,
+		"carbohydrates": 80.3,
+		"kcal": 308.0
+	},
+	"Драже фруктовое": {
+		"water": 7.0,
+		"proteins": 3.7,
+		"fats": 10.2,
+		"carbohydrates": 73.1,
+		"kcal": 384.0
+	},
+	"Зефир": {
+		"water": 20.0,
+		"proteins": 0.8,
+		"fats": 0.0,
+		"carbohydrates": 78.3,
+		"kcal": 299.0
+	},
+	"Ирис": {
+		"water": 6.5,
+		"proteins": 3.3,
+		"fats": 7.5,
+		"carbohydrates": 81.8,
+		"kcal": 387.0
+	},
+	"Мармелад": {
+		"water": 21.0,
+		"proteins": 0.0,
+		"fats": 0.1,
+		"carbohydrates": 77.7,
+		"kcal": 296.0
+	},
+	"Карамель": {
+		"water": 4.4,
+		"proteins": 0.0,
+		"fats": 0.1,
+		"carbohydrates": 77.7,
+		"kcal": 296.0
+	},
+	"Конфеты, глаз-ые шоколадом": {
+		"water": 7.9,
+		"proteins": 2.9,
+		"fats": 10.7,
+		"carbohydrates": 76.6,
+		"kcal": 396.0
+	},
+	"Пастила": {
+		"water": 18.0,
+		"proteins": 0.5,
+		"fats": 0.0,
+		"carbohydrates": 80.4,
+		"kcal": 305.0
+	},
+	"Сахар": {
+		"water": 0.2,
+		"proteins": 0.3,
+		"fats": 0.0,
+		"carbohydrates": 99.5,
+		"kcal": 374.0
+	},
+	"Халва тахинная": {
+		"water": 3.9,
+		"proteins": 12.7,
+		"fats": 29.9,
+		"carbohydrates": 50.6,
+		"kcal": 510.0
+	},
+	"Халва подсолнечная": {
+		"water": 2.9,
+		"proteins": 11.6,
+		"fats": 29.7,
+		"carbohydrates": 54.0,
+		"kcal": 516.0
+	},
+	"Шоколад темный": {
+		"water": 0.8,
+		"proteins": 5.4,
+		"fats": 35.3,
+		"carbohydrates": 52.6,
+		"kcal": 540.0
+	},
+	"Шоколад молочный": {
+		"water": 0.9,
+		"proteins": 6.9,
+		"fats": 35.7,
+		"carbohydrates": 52.4,
+		"kcal": 547.0
+	},
+	"Вафли с фр-ми начинками": {
+		"water": 12.0,
+		"proteins": 3.2,
+		"fats": 2.8,
+		"carbohydrates": 80.1,
+		"kcal": 342.0
+	},
+	"Вафли с жировыми начинками": {
+		"water": 1.0,
+		"proteins": 3.4,
+		"fats": 30.2,
+		"carbohydrates": 64.7,
+		"kcal": 530.0
+	},
+	"Пирожное слоеное с кремом": {
+		"water": 9.0,
+		"proteins": 5.4,
+		"fats": 38.6,
+		"carbohydrates": 46.4,
+		"kcal": 544.0
+	},
+	"Пирожное слоеное с яблоком": {
+		"water": 13.0,
+		"proteins": 5.7,
+		"fats": 25.6,
+		"carbohydrates": 52.7,
+		"kcal": 454.0
+	},
+	"Пирожное бисквитное": {
+		"water": 21.0,
+		"proteins": 4.7,
+		"fats": 9.3,
+		"carbohydrates": 84.4,
+		"kcal": 344.0
+	},
+	"Пряники": {
+		"water": 14.5,
+		"proteins": 4.8,
+		"fats": 2.8,
+		"carbohydrates": 77.7,
+		"kcal": 336.0
+	},
+	"Торт бисквитный": {
+		"water": 25.0,
+		"proteins": 4.7,
+		"fats": 20.0,
+		"carbohydrates": 49.8,
+		"kcal": 386.0
+	},
+	"Торт миндальный": {
+		"water": 9.3,
+		"proteins": 6.6,
+		"fats": 35.8,
+		"carbohydrates": 46.8,
+		"kcal": 524.0
+	},
+	"Яйцо куриное": {
+		"water": 74.0,
+		"proteins": 12.7,
+		"fats": 11.5,
+		"carbohydrates": 0.7,
+		"kcal": 157.0
+	},
+	"Яичный порошок": {
+		"water": 6.8,
+		"proteins": 45.0,
+		"fats": 37.3,
+		"carbohydrates": 7.1,
+		"kcal": 542.0
+	},
+	"Сухой белок": {
+		"water": 12.1,
+		"proteins": 73.3,
+		"fats": 1.8,
+		"carbohydrates": 7.0,
+		"kcal": 336.0
+	},
+	"Сухой желток": {
+		"water": 5.4,
+		"proteins": 34.2,
+		"fats": 52.2,
+		"carbohydrates": 4.4,
+		"kcal": 623.0
+	},
+	"Яйцо перепелиное": {
+		"water": 73.3,
+		"proteins": 11.9,
+		"fats": 13.1,
+		"carbohydrates": 0.6,
+		"kcal": 168.0
+	},
+	"Белые свежие": {
+		"water": 89.9,
+		"proteins": 3.2,
+		"fats": 0.7,
+		"carbohydrates": 1.6,
+		"kcal": 25.0
+	},
+	"Белые сушеные": {
+		"water": 13.0,
+		"proteins": 27.6,
+		"fats": 6.8,
+		"carbohydrates": 10.0,
+		"kcal": 209.0
+	},
+	"Подберезовики свежие": {
+		"water": 91.6,
+		"proteins": 2.3,
+		"fats": 0.9,
+		"carbohydrates": 3.7,
+		"kcal": 31.0
+	},
+	"Подосиновики свежие": {
+		"water": 91.1,
+		"proteins": 3.3,
+		"fats": 0.5,
+		"carbohydrates": 3.4,
+		"kcal": 31.0
+	},
+	"Сыроежи свежие": {
+		"water": 83.0,
+		"proteins": 1.7,
+		"fats": 0.3,
+		"carbohydrates": 1.4,
+		"kcal": 17.0
+	},
+	"Бобы": {
+		"water": 83.0,
+		"proteins": 6.0,
+		"fats": 0.1,
+		"carbohydrates": 8.3,
+		"kcal": 58.0
+	},
+	"Горох лущеный": {
+		"water": 14.0,
+		"proteins": 23.0,
+		"fats": 1.6,
+		"carbohydrates": 57.7,
+		"kcal": 323.0
+	},
+	"Горох цельный": {
+		"water": 14.0,
+		"proteins": 23.0,
+		"fats": 1.2,
+		"carbohydrates": 53.3,
+		"kcal": 303.0
+	},
+	"Соя": {
+		"water": 12.0,
+		"proteins": 34.9,
+		"fats": 17.3,
+		"carbohydrates": 26.5,
+		"kcal": 395.0
+	},
+	"Фасоль": {
+		"water": 14.0,
+		"proteins": 22.3,
+		"fats": 1.7,
+		"carbohydrates": 54.5,
+		"kcal": 309.0
+	},
+	"Чечевица": {
+		"water": 14.0,
+		"proteins": 24.8,
+		"fats": 1.1,
+		"carbohydrates": 53.7,
+		"kcal": 310.0
+	}
+}
