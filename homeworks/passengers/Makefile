@@ -1,3 +1,0 @@
-
-test:
-	python test.py
