@@ -17,5 +17,4 @@ class TimeIntervalTestCase(unittest.TestCase):
         )
 
 # test_init
-# patch
 # setUp
