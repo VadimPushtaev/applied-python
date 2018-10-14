@@ -4,17 +4,21 @@ import json
 from glob import glob
 from log_parse import parse
 
-error_message = 'Ошибка в файле {}. Expected: "{}", got: "{}"'
+error_message = "Полученный и ожидаемый массивы различаются, получен: {} ожидался: {}, файл {}"
 
 
 def run_tests():
     for filename in glob('tests/*.json'):
         data = json.load(open(filename))
         params, response = data['params'], data['response']
-        got = parse(**data['params'])
+        got = parse(**params)
+        if len(got) != len(response):
+            print(error_message.format(
+                str(got), str(response), filename
+            ))
         for index, item in enumerate(response):
-            if len(got) != len(response) or got[index] != response[index]:
-                print("Полученный и ожидаемый массивы различаются, получен: {} ожидался: {}, файл {}".format(
+            if got[index] != response[index]:
+                print(error_message.format(
                     str(got), str(response), filename
                 ))
                 return
