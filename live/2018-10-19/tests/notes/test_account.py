@@ -1,6 +1,7 @@
 from unittest.mock import MagicMock, patch
 
-from notes.account import Account, NoSuchUserError, InvalidPasswordError, InvalidTokenError
+from notes.account import Account, InvalidPasswordError, InvalidTokenError
+from notes.access import NoSuchUserError
 from tests import BaseTestCase
 
 
@@ -20,7 +21,7 @@ class AccountTestCase(BaseTestCase):
 
         self.assertTrue(fake_set_called)
 
-    @patch('notes.account.crypt')
+    @patch('notes.access.crypt')
     def test__check_password__false(self, patched_crypt):
         storage = MagicMock()
         storage.get.return_value = 'DIGEST'
@@ -30,7 +31,7 @@ class AccountTestCase(BaseTestCase):
 
         patched_crypt.assert_called_once_with('abc', 'DIGEST')
 
-    @patch('notes.account.crypt')
+    @patch('notes.access.crypt')
     def test__check_password__true(self, patched_crypt):
         storage = MagicMock()
         storage.get.return_value = 'DIGEST'

@@ -1,6 +1,8 @@
 from crypt import crypt, mksalt, METHOD_SHA512
 from uuid import uuid4
 
+from notes.access import check_password, check_token, get_account_key, get_token_key, get_ro_token_key
+
 
 class Account:
     def __init__(self, username):
@@ -8,43 +10,24 @@ class Account:
 
     @classmethod
     def create(cls, username, password, storage):
-        key = cls._get_account_key(username)
+        key = get_account_key(username)
 
         salt = mksalt(METHOD_SHA512)
         digest = crypt(password, salt)
         storage.set(key, digest)
 
-    @classmethod
-    def _get_account_key(cls, username):
-        return f'account:{username}'
-
-    @classmethod
-    def _get_token_key(cls, token):
-        return f'token:{token}'
-
-    @classmethod
-    def _get_ro_token_key(cls, token):
-        return f'ro_token:{token}'
-
     def _check_password(self, password, storage):
-        key = self._get_account_key(self._username)
-        digest = storage.get(key)
-        if digest is None:
-            raise NoSuchUserError()
-
-        return crypt(password, digest) == digest
+        return check_password(self._username, password, storage)
 
     def _check_token(self, token, storage):
-        key = self._get_token_key(token)
-        username = storage.get(key)
-        return username == self._username
+        return check_token(token, self._username, storage)
 
     def create_token(self, password, storage):
         if not self._check_password(password, storage):
             raise InvalidPasswordError()
 
         token = str(uuid4())
-        key = self._get_token_key(token)
+        key = get_token_key(token)
         storage.set(key, self._username)
 
     def create_ro_token(self, master_token, storage):
@@ -52,15 +35,11 @@ class Account:
             raise InvalidTokenError()
 
         token = str(uuid4())
-        key = self._get_ro_token_key(token)
+        key = get_ro_token_key(token)
         storage.set(key, self._username)
 
 
 class InvalidPasswordError(Exception):
-    pass
-
-
-class NoSuchUserError(Exception):
     pass
 
 
