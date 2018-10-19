@@ -22,6 +22,10 @@ class Account:
     def _get_token_key(cls, token):
         return f'token:{token}'
 
+    @classmethod
+    def _get_ro_token_key(cls, token):
+        return f'ro_token:{token}'
+
     def _check_password(self, password, storage):
         key = self._get_account_key(self._username)
         digest = storage.get(key)
@@ -29,6 +33,11 @@ class Account:
             raise NoSuchUserError()
 
         return crypt(password, digest) == digest
+
+    def _check_token(self, token, storage):
+        key = self._get_token_key(token)
+        username = storage.get(key)
+        return username == self._username
 
     def create_token(self, password, storage):
         if not self._check_password(password, storage):
@@ -38,10 +47,22 @@ class Account:
         key = self._get_token_key(token)
         storage.set(key, self._username)
 
+    def create_ro_token(self, master_token, storage):
+        if not self._check_token(master_token, storage):
+            raise InvalidTokenError()
+
+        token = str(uuid4())
+        key = self._get_ro_token_key(token)
+        storage.set(key, self._username)
+
 
 class InvalidPasswordError(Exception):
     pass
 
 
 class NoSuchUserError(Exception):
+    pass
+
+
+class InvalidTokenError(Exception):
     pass

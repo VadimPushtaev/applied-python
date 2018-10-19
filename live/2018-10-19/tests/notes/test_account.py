@@ -1,6 +1,6 @@
 from unittest.mock import MagicMock, patch
 
-from notes.account import Account, NoSuchUserError, InvalidPasswordError
+from notes.account import Account, NoSuchUserError, InvalidPasswordError, InvalidTokenError
 from tests import BaseTestCase
 
 
@@ -61,10 +61,38 @@ class AccountTestCase(BaseTestCase):
 
         storage.set.assert_called_once_with('token:UUID', 'katya')
 
-    def test_create_token__wrong_password(self):
+    def test__check_token(self):
         storage = MagicMock()
+        storage.get.return_value = 'vasya'
+
+        katya_acc = Account('katya')
+        self.assertFalse(katya_acc._check_token('abc', storage))
+
+        vasya_acc = Account('vasya')
+        self.assertTrue(vasya_acc._check_token('abc', storage))
+
+    def test_create_token__wrong_password(self):
         account = Account('katya')
         account._check_password = lambda p, s: False
 
         with self.assertRaises(InvalidPasswordError):
-            account.create_token('abc', storage)
+            account.create_token('abc', None)
+
+    @patch('notes.account.uuid4')
+    def test_create_ro_token(self, patched_uuid4):
+        patched_uuid4.return_value = 'UUID'
+
+        storage = MagicMock()
+        account = Account('katya')
+        account._check_token = lambda t, s: True
+
+        account.create_ro_token('abc', storage)
+
+        storage.set.assert_called_once_with('ro_token:UUID', 'katya')
+
+    def test_create_token__wrong_token(self):
+        account = Account('katya')
+        account._check_token = lambda p, s: False
+
+        with self.assertRaises(InvalidTokenError):
+            account.create_ro_token('abc', None)
