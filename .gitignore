@@ -1,4 +1,5 @@
 /talks/*/.ipynb_checkpoints
+/live/*/.venv/
 __pycache__
 venv
 .idea
