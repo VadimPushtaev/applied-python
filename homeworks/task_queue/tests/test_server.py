@@ -5,12 +5,12 @@ import socket
 
 import subprocess
 
-from server import run
+from server import TaskQueueServer
 
 
 class ServerBaseTest(TestCase):
     def setUp(self):
-        self.server = subprocess.Popen(['python', 'server.py'])
+        self.server = subprocess.Popen(['python3', 'server.py'])
         # даем серверу время на запуск
         time.sleep(0.5)
 
@@ -49,6 +49,17 @@ class ServerBaseTest(TestCase):
 
         self.assertEqual(b'YES', self.send(b'ACK 1 ' + second_task_id))
         self.assertEqual(b'NO', self.send(b'ACK 1 ' + second_task_id))
+
+    def test_long_input(self):
+        data = '12345' * 1000
+        data = '{} {}'.format(len(data), data)
+        data = data.encode('utf')
+        task_id = self.send(b'ADD 1 ' + data)
+        self.assertEqual(b'YES', self.send(b'IN 1 ' + task_id))
+        self.assertEqual(task_id + b' ' + data, self.send(b'GET 1'))
+
+    def test_wrong_command(self):
+        self.assertEqual(b'ERROR', self.send(b'ADDD 1 5 12345'))
 
 
 if __name__ == '__main__':
