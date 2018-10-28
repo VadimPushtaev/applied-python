@@ -16,7 +16,7 @@ def parse_args():
         action="store",
         dest="port",
         type=int,
-        default=8080,
+        default=5555,
         help='Server port')
     parser.add_argument(
         '-i',
