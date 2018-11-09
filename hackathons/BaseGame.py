@@ -15,7 +15,7 @@ class Scorer:
 class BaseGame(metaclass=ABCMeta):
     def __init__(self, name, scorer):
         self.__name = name
-        self.__corer = scorer
+        self.__scorer = scorer
 
     def add_scores(self, point):
         self.__scorer.add_scores(self.__name, point)
