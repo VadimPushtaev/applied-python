@@ -6,9 +6,9 @@ sys.path.insert(0, "..")
 
 import BaseGame
 
+NAME = "FlappyBird"
 
-class Game(BaseGame):
-
+class FlappyBird(BaseGame.BaseGame):
     @property
     def score(self):
         #if self.iteration > 44:
@@ -24,17 +24,21 @@ class Game(BaseGame):
         return new_bird
 
     def drop_barrier(self):
-        return self.win_borders[0]//2 + randint(-self.dist//2, self.dist//2)
+        return self.win_borders[0]//2 + randint(0, self.dist) - self.dist
 
     def print_barr(self, win, y1, y2, x1, width):
         for i in range(1,self.win_borders[0]-1):
                 if i not in range(y1,y2):
-                    win.addnstr(i, x1, '=', width)
-                    win.addnstr(i, x1+width, ' ', width)
+                    win.addstr(i, x1, '='*10)
+                    win.addstr(i, x1+width, ' '*10)
+
+    def clear_left_border(self, win):
+        for i in range(1, self.win_borders[0]-1):
+            win.addch(i,1, ' ')
     
     def loop(self, win):
         barr = self.drop_barrier()
-        self.barriers.insert(0,[barr, barr+self.dist])
+        self.barriers.append([barr, barr+self.dist])
         z = 3
         while True:
             self.iteration += 1
@@ -53,22 +57,27 @@ class Game(BaseGame):
             win.addch(bird[0], bird[1], self.bird_ch)
             win.addch(self.bird[0], self.bird[1], ' ')
             self.bird = bird
+            #self.add_scores(self.score)
+            count = len(self.barriers)
             for idx, b in enumerate(self.barriers):
-                self.print_barr(win, b[0], b[1], self.win_borders[1]-idx*4-5, 4)
+                if self.win_borders[1]-8*(count-idx)-1 < 1:
+                    self.barriers.pop(0)
+                    continue
+                self.print_barr(win, b[0], b[1], self.win_borders[1]-8*(count-idx)-1, 4)
+            self.clear_left_border(win)
             if self.iteration % 8:
                 continue
             barr = self.drop_barrier()
-            self.barriers.insert(0, [barr, barr+self.dist])
+            self.barriers.append([barr, barr+self.dist])
             
 
     def run(self):
-        self.win_borders = (30, 60, 0, 0)
-        self.bird = [9,15]
+        self.win_borders = (30, 60, 0, 0) #no constructor = more pain
+        self.bird = [9,10]
         self.barriers = []
         self.key = -1
         self.keys = [KEY_UP, -1]
         self.bird_ch = '*'
-        score = 0
         self.dist = 7
         self.jump = 5
         self.iteration = -1
@@ -91,8 +100,9 @@ class Game(BaseGame):
         win.keypad(0)
         curses.echo()
         curses.endwin()
+        self.add_scores(self.score)
         print("\nScore - " + str(self.score))
 
 
 if __name__ == '__main__':
-    Game().run()
+    FlappyBird(NAME, FlappyBird.score).run()
